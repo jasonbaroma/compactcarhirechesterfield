@@ -251,7 +251,7 @@ const truckMainNames = [
 
 export const siteConfig = {
   businessName: "Compact Car Hire Chesterfield",
-  companyTagline: "Practical self-drive hire across Chesterfield and beyond",
+  companyTagline: "Practical self-drive hire across Chesterfield and the wider Derbyshire and South Yorkshire routes",
   legalBusinessName: "Compact Car Hire Chesterfield",
   locationName: "Chesterfield",
   siteUrl: "https://compactcarhirechesterfield.co.uk",
@@ -388,803 +388,723 @@ function createContentSet(args: {
   }
 }
 
-const homepageTokens: ContentTokenSet = {
-  metadata: {
-    title: "Compact Car Hire Chesterfield | Self-Drive Vehicle Hire",
-    description: "Compact car hire in Chesterfield for local driving, station runs, airport trips and everyday travel, with vans, minibuses and trucks also available.",
-  },
-  heroImage: "/images/homepage_image_1.jpeg",
-  heroAlt: "Line of compact hire cars with wider vehicle fleet in a clean forecourt setting",
-  heroTitle: "Compact car hire in Chesterfield made simple",
-  heroDescription: "Compact car hire in Chesterfield for easy local driving, station runs, airport trips and everyday travel. We also offer vans, minibuses and trucks when you need more space or a different type of vehicle.",
-  heroSecondaryActionLabel: "View vehicle options",
-  mainServiceKicker: "Compact car hire",
-  mainServiceTitle: "Self-drive compact cars for everyday travel in Chesterfield",
-  mainServiceDescription: "Our core service is compact car hire for drivers who want something easy to manage, easy to park and comfortable enough for both local and regional travel. Small cars are a strong fit for everyday journeys around Chesterfield, from shopping trips and appointments to station runs, visiting family and covering temporary transport needs when your own car is off the road.\n\nWe focus on practical self-drive options rather than overcomplicated packages. That means a straightforward choice of compact vehicles including city-friendly models and slightly larger hatchbacks, with manual and automatic options available across the wider range. If your journey changes and you need extra room, we can also help with estates, larger cars and SUVs.\n\nBeyond compact cars, we support broader vehicle hire needs across Chesterfield with vans, minibuses and trucks. So whether you need a small runabout today or a larger vehicle for a different job next week, you can arrange it through the same business.",
-  mainVehicles: [
-    { body: "The Fiat 500 is ideal for quick local trips, easy parking and drivers who want a small car that feels simple to use around town.", alt: "Fiat 500 compact hire car for easy driving in Chesterfield" },
-    { body: "A smart choice for convenient automatic driving, especially for short urban journeys, station pickups and everyday errands.", alt: "Hyundai i10 automatic compact hire car in Chesterfield" },
-    { body: "The VW Golf gives you a little more cabin and boot space while still keeping the practical feel of a compact everyday hire car.", alt: "Volkswagen Golf hatchback available for hire in Chesterfield" },
-    { body: "Useful for drivers who want the ease of an automatic with enough comfort for longer regional trips as well as local mileage.", alt: "Ford Focus automatic available for self-drive hire in Chesterfield" },
-  ],
-  whyChooseKicker: "Why choose us",
-  whyChooseTitle: "A practical approach to self-drive hire in Chesterfield",
-  whyChooseDescription: "Hiring a car should feel practical, not padded out with unnecessary sales talk. We focus on useful vehicles, clear communication and helping customers find a car that actually fits the journey they have planned in and around Chesterfield.",
-  whyChooseItems: [
-    { title: "Cars that suit real journeys", body: "Our compact car range is built around everyday usability, with options that are easy to drive in town and comfortable on longer runs." },
-    { title: "Practical vehicle choices", body: "Need a small city car, an automatic or something with more boot space? We help match the vehicle to the trip rather than forcing one option." },
-    { title: "Straightforward booking support", body: "We keep the process clear and useful, so you can quickly understand what is available and what best fits your plans." },
-    { title: "More than just car hire", body: "If your plans move beyond a compact car, we can also arrange vans, minibuses and trucks through the same business." },
-    { title: "Well suited to the area", body: "Chesterfield drivers often need vehicles for station access, motorway links and local errands, so our service is shaped around everyday local use." },
-    { title: "Flexible around changing needs", body: "Short notice, changed plans and different trip types are common, and we aim to keep your options practical when that happens." },
-  ],
-  additionalServicesKicker: "Wider fleet options",
-  additionalServicesTitle: "More vehicles when your journey needs extra room",
-  additionalServicesDescription: "Need more space than a compact hatchback? Alongside our smaller cars, we also offer larger family cars, estates, premium automatics and SUVs, plus vans, minibuses and trucks for wider transport needs.",
-  additionalVehicles: [
-    { body: "The Focus Estate is a useful step up when you want car-like driving with a larger boot for luggage, equipment or shopping runs.", alt: "Ford Focus Estate available for practical luggage and load space in Chesterfield" },
-    { body: "A solid choice for longer motorway travel, business appointments and day trips where extra comfort matters.", alt: "Ford Mondeo saloon for longer road journeys from Chesterfield" },
-    { body: "The automatic Mondeo suits drivers who want an easier drive in traffic while keeping the space and comfort of a larger car.", alt: "Ford Mondeo automatic for comfortable self-drive hire in Chesterfield" },
-    { body: "Ideal when passengers and luggage both need room, making it well suited to airport runs, family travel and longer stays away.", alt: "Ford Mondeo Estate with extended luggage room for Chesterfield hires" },
-    { body: "A practical SUV option with a higher driving position, useful for mixed local and regional journeys with passengers and bags.", alt: "Toyota RAV4 automatic SUV for flexible travel around Chesterfield" },
-    { body: "For business travel or a more refined drive, the C Class Auto gives you a smarter cabin and easy motorway comfort.", alt: "Mercedes C Class automatic for executive car hire in Chesterfield" },
-    { body: "The E Class Auto works well for longer business mileage, client travel and occasions where a more spacious executive car is preferred.", alt: "Mercedes E Class automatic executive vehicle hire in Chesterfield" },
-    { body: "When you want extra presence, comfort and cabin space, the Range Rover is suited to higher-end journeys and larger personal loads.", alt: "Range Rover SUV hire for premium travel in Chesterfield" },
-  ],
-  featureCtaTitle: "Looking for the right vehicle in Chesterfield?",
-  featureCtaDescription: "Need a practical car for local driving, a weekend away or business travel? Get in touch and we will help you find the right vehicle quickly.",
-  serviceAreasKicker: "Areas we cover",
-  serviceAreasTitle: "Vehicle hire around Chesterfield and nearby areas",
-  serviceAreasDescription: "We cover Chesterfield and surrounding towns with practical self-drive hire. If you are nearby and need a compact car, we can also help with larger cars, vans, minibuses and trucks.",
-  localRelevanceKicker: "Driving in Chesterfield",
-  localRelevanceTitle: "Why compact car hire works well in Chesterfield",
-  localRelevanceDescription: "Chesterfield is the kind of place where compact car hire makes practical sense. Many journeys here involve a blend of town-centre roads, local residential routes and quick access onto larger connections such as the M6, M58 and A49. A smaller car helps keep those trips straightforward, whether you are visiting family, covering for your own vehicle, heading to a meeting or making a rail station pickup.\n\nCompact cars also suit the everyday reality of driving around busy local areas where parking space, turning room and stop-start traffic all matter. If you only need a clean, manageable vehicle that is easy to live with for a short trip or a few days of regular use, a compact model is usually the sensible choice.\n\nBecause Chesterfield sits between major routes and surrounding towns, it is also common for customers to need more than one type of vehicle depending on the job. That is why we keep the wider fleet available too, so if your plans move from local driving to moving goods, group travel or larger commercial work, you can stay with one practical self-drive hire provider.",
-  localRelevanceBlocks: [
-    { title: "A good fit for mixed Chesterfield driving", body: "Chesterfield works well for compact cars because so many everyday trips mix town driving with short stretches on faster roads. Whether you are heading between the centre, residential areas or nearby retail parks, a smaller car is easier to place, easier to park and less awkward in tighter spaces.\n\nThe M6, M58 and A49 all keep Chesterfield well connected, so a compact hatchback also makes sense if your day includes a mix of local stops and regional travel. You get straightforward motorway capability without stepping up to a larger vehicle than you actually need." },
-    { title: "Useful around stations, retail areas and town routes", body: "If your journey starts near Chesterfield North Western or Chesterfield Wallgate, a compact car is often the most practical choice. It keeps things simple for collections, onward travel and quick turnarounds, especially if you are picking someone up with luggage but do not need a full-size car.\n\nThe same applies to everyday errands around Robin Park, the town centre and surrounding districts where parking spaces and traffic flow can make a smaller vehicle the easier option. For business users, it is a sensible choice when you need to stay mobile without overcomplicating the trip." },
-    { title: "Choose the right size before you set off", body: "Not every journey suits the same vehicle, which is why we keep the wider fleet in view as well. A Fiat 500 or Hyundai i10 Auto can be ideal for compact urban use, while a Golf or Focus Auto gives you extra comfort if your route is longer or you expect more passenger use.\n\nIf plans change and you suddenly need luggage room, load space or passenger capacity, we can also point you towards estates, SUVs, vans, minibuses or trucks. That makes it easier to start with the right vehicle instead of trying to make the wrong one work." },
-  ],
-  bottomCtaTitle: "Book compact car hire in Chesterfield with straightforward support",
-  bottomCtaDescription: "Tell us where you need to go and what kind of driving you have planned. We will help you choose the right compact car or a larger vehicle from our wider fleet.",
-  faqKicker: "Common questions",
-  faqTitle: "Compact car hire FAQs for Chesterfield",
-  faqs: [
-    { question: "Why choose compact car hire in Chesterfield?", answer: "A compact car is often the easiest option for Chesterfield driving if you want simple parking, lighter fuel use and comfortable travel on local roads and short motorway runs." },
-    { question: "Can I arrange compact car hire in Chesterfield at short notice?", answer: "Yes, we can help with short-notice availability in Chesterfield when vehicles are ready to go. The best option is to call and we will talk through what is currently available." },
-    { question: "Do you only offer small cars in Chesterfield?", answer: "Yes. If you need more room than a small hatchback, we also offer estate cars, larger saloons, SUVs, vans, minibuses and trucks." },
-    { question: "What are compact hire cars in Chesterfield usually used for?", answer: "Many customers use compact cars in Chesterfield for station pickups, airport journeys, visiting family, temporary vehicle cover and everyday local travel." },
-    { question: "What do I need to collect my hire car in Chesterfield?", answer: "Bring your driving licence and any booking details when collecting in Chesterfield. If anything else is needed for your hire, we will confirm it before you travel." },
-    { question: "Are automatic cars available for hire in Chesterfield?", answer: "Yes, subject to availability. If you prefer an easier drive for stop-start traffic or a more relaxed motorway run, ask us about our automatic options in Chesterfield." },
-  ],
+function createCompactMainVehicleTexts(location: string): VehicleText[] {
+  return [
+    {
+      body: `The Fiat 500 is ideal for short ${location} trips where easy parking, simple handling and a small footprint matter most.`,
+      alt: `Fiat 500 compact hire car for easy local driving in ${location}`,
+    },
+    {
+      body: `The Hyundai i10 Auto suits drivers who want relaxed automatic driving for errands, station collections and everyday travel around ${location}.`,
+      alt: `Hyundai i10 automatic compact hire car in ${location}`,
+    },
+    {
+      body: `The VW Golf adds extra comfort and luggage space while keeping the practical feel that works well for mixed local and regional mileage from ${location}.`,
+      alt: `Volkswagen Golf hatchback available for hire in ${location}`,
+    },
+    {
+      body: `The Focus Auto is a useful all-rounder when your ${location} journey mixes town driving with longer runs on faster roads.`,
+      alt: `Ford Focus automatic available for self-drive hire in ${location}`,
+    },
+  ]
 }
 
-const vanHireTokens: ContentTokenSet = {
-  metadata: {
-    title: "Van Hire Chesterfield | Practical Vans for Moves, Deliveries and Trade",
-    description: "Van hire in Chesterfield for home moves, deliveries, trade work and specialist jobs. Choose from compact vans, larger Transits, Lutons and more.",
-  },
-  heroImage: "/images/van_hire_image_1.jpeg",
-  heroAlt: "Modern rental van being loaded with boxes outside a house",
-  heroTitle: "Van hire in Chesterfield for work, moves and deliveries",
-  heroDescription: "Practical van hire in Chesterfield for moves, trade work, deliveries, collections and business use. Choose from compact vans, larger panel vans and specialist vehicles to suit the job.",
-  heroSecondaryActionLabel: "View van options",
-  mainServiceKicker: "Chesterfield van fleet",
-  mainServiceTitle: "Van hire for moves, work and transport needs",
-  mainServiceDescription: "Our van hire service in Chesterfield is built around real day to day jobs. Some customers need a compact van for quick collections, storage runs or tool transport. Others need a larger panel van for furniture, stock, equipment or a full moving day. We also offer specialist options for more specific work, including dropsides, tippers, recovery vehicles and a cherry picker.\n\nWhether you are moving home, covering trade jobs, handling site work or making business deliveries, the right van makes a big difference. A smaller van can be easier to park and manoeuvre in tighter areas, while longer wheelbase and box vans give you the extra carrying room needed for larger loads. If you are unsure what will suit your route or cargo, we can help you narrow it down to a practical choice.",
-  mainVehicles: [
-    { body: "A compact Caddy van that suits small deliveries, toolbox transport, parcel runs and quick local collections where easy parking is important.", alt: "Caddy van for compact cargo and local deliveries" },
-    { body: "The short wheelbase Transit is a solid all rounder for furniture pickups, trade materials and everyday business loads without moving into a larger footprint.", alt: "Ford Transit SWB van for everyday transport jobs" },
-    { body: "An automatic VW Transporter that works well for drivers who want a smooth, easy van for city driving, service visits and regular stop start journeys.", alt: "VW Transporter automatic van for easy urban driving" },
-    { body: "A medium wheelbase Transit with extra load length for moving larger items, boxed stock, event kit or trade equipment across several stops.", alt: "Ford Transit MWB van for medium load transport" },
-    { body: "The long wheelbase Transit is well suited to larger house moves, bulky furniture, workplace clearances and loads that need more internal space.", alt: "Ford Transit LWB van for bulky loads and moves" },
-    { body: "A longer 4 metre Sprinter for extended loads, larger move days and commercial transport where extra room helps avoid multiple trips.", alt: "4 metre Sprinter van for long items and larger loads" },
-    { body: "A Luton box van with tail lift that is ideal for removals, appliances, heavier furniture and jobs where easier loading makes a real difference.", alt: "Ford Luton box van with tail lift for removals and heavy items" },
-    { body: "A dropside Transit for timber, landscaping materials, site equipment and other awkward loads that are easier to secure on an open body.", alt: "Ford Transit dropside van for open load carrying" },
-    { body: "A 3.5 tonne tipper Transit for builders, landscapers and site teams moving aggregates, waste, tools and loose materials efficiently.", alt: "3.5 tonne tipper Transit for site and waste jobs" },
-    { body: "A practical recovery van for vehicle transport, collection work and planned roadside moves where a dedicated carrying setup is needed.", alt: "Recovery van for vehicle transport and collection work" },
-    { body: "A VW campervan for weekend escapes, touring breaks and flexible road trips when you want a practical self drive leisure vehicle.", alt: "VW campervan for touring and leisure travel" },
-    { body: "A cherry picker van for access work such as maintenance, inspections, signage and property tasks where safe reach matters as much as mobility.", alt: "12.5 metre cherry picker van for elevated access work" },
-  ],
-  whyChooseKicker: "Why hire from us",
-  whyChooseTitle: "A practical van hire service for real work",
-  whyChooseDescription: "Van hire is rarely just about getting any vehicle. It is about getting one that actually works for the route, the load and the way the day is going to run. We keep that in mind when helping customers choose between compact vans, larger panel vans and specialist options in Chesterfield.",
-  whyChooseItems: [
-    { title: "Useful fleet choices", body: "From compact vans to larger carrying options, the fleet covers everyday transport jobs as well as heavier duty tasks." },
-    { title: "Job led advice", body: "Whether you are moving furniture, carrying tools or collecting stock, we focus on what the van needs to do in practice." },
-    { title: "Specialist options available", body: "Automatic vans, Lutons, tippers, dropsides and recovery vehicles help when a standard panel van is not the right fit." },
-    { title: "Practical route matching", body: "A van that suits your streets, loading points and route plan can save time and hassle on the day." },
-    { title: "Good regional access", body: "Chesterfield is well placed for local work and wider travel across the North West, making van hire useful for both short and longer runs." },
-    { title: "Straightforward booking support", body: "We keep the process straightforward so you can get on with the move, delivery or job without overcomplicating it." },
-  ],
-  featureCtaTitle: "Need van hire in Chesterfield?",
-  featureCtaDescription: "Need a van for moving, deliveries or site work in Chesterfield? Speak to our team and we will help you choose a practical vehicle without the guesswork.",
-  serviceAreasKicker: "Areas we cover",
-  serviceAreasTitle: "Van hire in Chesterfield and nearby areas",
-  serviceAreasDescription: "We support van hire from Chesterfield across surrounding towns and key route corridors, making it easier to cover local jobs, regional deliveries and one off transport tasks.",
-  localRelevanceKicker: "Local van hire guidance",
-  localRelevanceTitle: "Van hire that fits the way Chesterfield journeys actually work",
-  localRelevanceDescription: "Van hire in Chesterfield suits a wide range of practical jobs, from moving between neighbourhoods to making collections across the wider North West. The town is well placed for local runs and regional travel alike, with strong links through the M6, M58 and A49. That makes it a useful base whether you are collecting furniture, transporting tools, delivering stock or handling a one off house move.\n\nThe key is matching the van to the work. Smaller vans are easier in tighter streets and busier built up areas, while longer and taller vans make better use of time when the load is bulky or awkward. For more specialist tasks, vehicles such as Lutons, dropsides, tippers and recovery vans can make the whole day more straightforward.\n\nIf you know the route, the type of load and how many stops are involved, choosing well becomes much easier. That is especially true around Chesterfield, where one hire might include residential streets, retail collections, motorway sections and site access all in the same journey.",
-  localRelevanceBlocks: [
-    { title: "Planning routes around Chesterfield and beyond", body: "Chesterfield works well for van hire because it sits between major routes rather than being cut off from them. If you are moving between Chesterfield town centre, Standish, Ashton-in-Makerfield or Hindley, a van gives you the flexibility to load once and keep the day moving. For wider trips, the M6, M58 and M61 links help with access across Lancashire, Greater Dronfield and Merseyside.\n\nIf your route includes industrial estates, retail parks or storage sites, it is worth thinking about turning space and loading access before you travel. A smaller van can be much easier around tighter streets and smaller forecourts, while a longer wheelbase van makes more sense when the load is bulky and the route is more straightforward." },
-    { title: "Choosing a van for home moves and collections", body: "For domestic jobs, access often matters as much as load volume. Terraced streets, shared parking bays and short loading windows can all affect which van is easiest to live with for the day. Areas closer to the town centre or around station approaches may suit a compact van better, especially if you are making repeated stops or collecting from mixed residential and retail locations.\n\nOn larger move days, it helps to break the journey into stages before collection. Measure the biggest items, think about door widths, and consider whether a tail lift or lower loading height would make the job smoother. A Luton or bigger Transit can save repeat trips, but only if the pickup and drop off points allow for easier parking and unloading." },
-    { title: "Vans for trade work, stock and site tasks", body: "Trade users often need vans that work across a full day rather than just getting from one point to another. If you are carrying tools, materials or stock between jobs in Chesterfield, Bryn, Ince-in-Makerfield or nearby business parks, choosing the right van can make loading faster and keep the working day more organised. Dropsides and tippers are especially useful where awkward materials or site waste are part of the plan.\n\nFor motorway runs or timed delivery work, it is smart to consider where delays are most likely. Junctions feeding the M6 and M61 can slow down at busy times, and town centre access changes the pace of short local jobs. A sensible van choice keeps the route manageable, the load secure and the day easier to schedule." },
-  ],
-  bottomCtaTitle: "Book the right van for the job",
-  bottomCtaDescription: "Tell us what you need to carry, where you are heading and how long you need the van for. We will help you choose a practical option for the job.",
-  faqKicker: "Van hire FAQs",
-  faqTitle: "Common questions about van hire in Chesterfield",
-  faqs: [
-    { question: "What size van should I hire?", answer: "A compact van suits small loads, tools and boxed items, while larger vans are better for furniture, pallets or longer materials. If you are unsure, describe the load and we can point you towards a sensible size." },
-    { question: "Can I hire a van for moving house or collecting furniture?", answer: "Yes, many customers use van hire for house moves, flat moves, furniture collection, event kit, trade work and business transport. The best van depends on access, load shape and how many stops you need to make." },
-    { question: "Do you offer automatic vans?", answer: "Automatic options are available in selected vans, including practical choices for drivers who prefer easier stop start driving around town or on motorway runs." },
-    { question: "Can I use the van for longer distance travel?", answer: "Yes, vans are commonly used for local work in Chesterfield as well as regional trips across Greater Dronfield, Lancashire, Merseyside and beyond. Let us know your route so we can help match the van to the journey." },
-    { question: "Do you have specialist vans as well as standard panel vans?", answer: "Recovery vans are designed for vehicle transport, while tippers, dropsides and Lutons suit very different jobs. If you need specialist capability, tell us the task and we will guide you to the right vehicle type." },
-    { question: "What should I check before collecting a hire van?", answer: "Bring your licence and the usual hire details, and make sure you are comfortable with the vehicle size before setting off. It also helps to plan parking, loading space and any low clearance points on your route." },
-  ],
+function createCompactAdditionalVehicleTexts(location: string): VehicleText[] {
+  return [
+    {
+      body: `The Focus Estate gives ${location} drivers extra boot space without stepping too far away from the feel of a normal everyday car.`,
+      alt: `Ford Focus Estate available for practical luggage space in ${location}`,
+    },
+    {
+      body: `The Mondeo is a sensible step up when comfort matters more, especially for longer journeys starting or ending in ${location}.`,
+      alt: `Ford Mondeo saloon for longer road journeys from ${location}`,
+    },
+    {
+      body: `The Mondeo Auto suits ${location} customers who want easier traffic driving while keeping the cabin comfort of a larger saloon.`,
+      alt: `Ford Mondeo automatic for comfortable self-drive hire in ${location}`,
+    },
+    {
+      body: `The Mondeo Estate works well when ${location} travel needs more luggage room for family visits, airport runs or longer stays away.`,
+      alt: `Ford Mondeo Estate with extended luggage room for ${location} hires`,
+    },
+    {
+      body: `The RAV4 Auto is a practical SUV option for ${location} journeys that need extra cabin flexibility and a higher driving position.`,
+      alt: `Toyota RAV4 automatic SUV for flexible travel around ${location}`,
+    },
+    {
+      body: `The C Class Auto gives ${location} customers a more refined option for business travel, client meetings and longer personal trips.`,
+      alt: `Mercedes C Class automatic for executive car hire in ${location}`,
+    },
+    {
+      body: `The E Class Auto is well suited to longer mileage from ${location} where extra cabin space and motorway comfort make a difference.`,
+      alt: `Mercedes E Class automatic executive vehicle hire in ${location}`,
+    },
+    {
+      body: `The Range Rover is there when a ${location} booking needs premium comfort, stronger road presence and more flexible luggage space.`,
+      alt: `Range Rover SUV hire for premium travel in ${location}`,
+    },
+  ]
 }
 
-const minibusHireTokens: ContentTokenSet = {
-  metadata: {
-    title: "Minibus Hire Chesterfield | Group Travel Vehicle Hire",
-    description: "Minibus hire in Chesterfield for airport transfers, family trips, events and group travel. Choose practical passenger vehicles for local and regional journeys.",
-  },
-  heroImage: "/images/minibus_hire_image_1.jpeg",
-  heroAlt: "Modern minibus loading passengers and luggage near an airport pickup area",
-  heroTitle: "Minibus Hire Chesterfield",
-  heroDescription: "Practical minibus hire in Chesterfield for family trips, airport journeys, events, teams and group outings. Choose from flexible people carriers and larger minibuses.",
-  heroSecondaryActionLabel: "View minibus options",
-  mainServiceKicker: "Group vehicle hire",
-  mainServiceTitle: "Chesterfield minibus hire for shared journeys of all kinds",
-  mainServiceDescription: "Our Chesterfield minibus hire service is built around real group travel needs. That might mean a compact people carrier for family outings, a larger vehicle for a club trip, or a full minibus for airport transfers, weddings or event travel. The focus is on giving you enough seats, sensible luggage space and a vehicle that feels suited to the road plan ahead.\n\nWe support journeys that stay local as well as trips heading further afield across the North West and beyond. If you are organising transport for relatives, colleagues, sports teams or guests, we help you sort the practical side early so the travel day is easier to manage.",
-  mainVehicles: [
-    { body: "The Vauxhall Zafira 5 plus 2 is a flexible choice for families and small groups who need extra seats without stepping up to a full minibus.", alt: "Vauxhall Zafira 5 plus 2 people carrier for hire in Chesterfield" },
-    { body: "The Galaxy 7 Seater Manual is well suited to airport runs, weekend breaks and group travel where passenger comfort matters.", alt: "Ford Galaxy 7 seater manual hire vehicle in Chesterfield" },
-    { body: "The Galaxy 7 Seater Automatic offers the same roomy layout with easier driving for longer trips and mixed urban motorway routes.", alt: "Ford Galaxy 7 seater automatic people carrier for Chesterfield hire" },
-    { body: "The 9 Seater Manual is a practical option for larger families, work outings and sports travel when one vehicle is easier than multiple cars.", alt: "9 seater manual minibus for group travel in Chesterfield" },
-    { body: "The 9 Seater Automatic is a useful choice for shared travel where automatic driving and easy passenger loading are both important.", alt: "9 seater automatic minibus hire in Chesterfield" },
-    { body: "The Ford 12 Seater works well for clubs, school outings, guest transport and group day trips with straightforward boarding and seating.", alt: "Ford 12 seater minibus available for hire in Chesterfield" },
-    { body: "The Ford 15 Seater gives growing groups more room, making it a strong fit for event travel, team transport and organised outings.", alt: "Ford 15 seater minibus for larger groups in Chesterfield" },
-    { body: "The Ford Minibus LITE 17 Seater is designed for larger groups needing extra capacity, with a layout aimed at drivers without D1 entitlement.", alt: "Ford Minibus Lite 17 seater no D1 hire vehicle in Chesterfield" },
-    { body: "The Ford 17 Seater is a full-capacity option for major group movements where keeping everyone together is the priority.", alt: "Ford 17 seater minibus hire for group transport in Chesterfield" },
-  ],
-  whyChooseKicker: "Why choose us",
-  whyChooseTitle: "Minibus hire planned around real journeys",
-  whyChooseDescription: "Group travel can become awkward quickly if the vehicle is too small, the luggage space is overlooked or the route has not been thought through. We keep the process practical, helping customers in Chesterfield choose a passenger vehicle that genuinely fits the journey rather than simply filling seats.",
-  whyChooseItems: [
-    { title: "Options for different group sizes", body: "From smaller people carriers to larger minibuses, we help you match the vehicle to the number of passengers and the type of trip." },
-    { title: "Luggage considered properly", body: "We consider bags, prams, sports equipment and travel extras so the vehicle works in practice, not just on seat count alone." },
-    { title: "Built around the trip", body: "Airport runs, weddings, fixtures and family events all have different timing needs. We help you choose with the journey purpose in mind." },
-    { title: "Straight advice on licence needs", body: "If a larger minibus needs a specific licence category, we explain that clearly and point you toward suitable alternatives where available." },
-    { title: "Ready for short and longer routes", body: "Our vehicles are suited to local Chesterfield travel as well as longer motorway journeys across the region." },
-    { title: "Supported by a broader fleet", body: "If your plans change and you need a van, compact car or truck instead, we can help through the wider hire fleet." },
-  ],
-  featureCtaTitle: "Travelling together starts with the right vehicle",
-  featureCtaDescription: "Need to move a group without splitting into several cars? Speak to us about practical minibus hire options for Chesterfield and surrounding routes.",
-  serviceAreasKicker: "Areas we cover",
-  serviceAreasTitle: "Serving Chesterfield and surrounding areas for minibus hire",
-  serviceAreasDescription: "We provide minibus hire from Chesterfield across nearby towns and onward routes, helping groups travel together for local pickups, regional trips and airport journeys.",
-  localRelevanceKicker: "Local travel guidance",
-  localRelevanceTitle: "Minibus hire that suits how groups travel from Chesterfield",
-  localRelevanceDescription: "Minibus hire in Chesterfield works best when the vehicle matches the real shape of the journey. Some trips are short local runs with a few passengers and light bags. Others involve airport travel, event schedules, relatives joining from different pickup points or teams carrying kit. We help you choose a minibus that fits the route, the group and the practical demands of the day.\n\nChesterfield is well placed for regional travel, but that also means journeys often join busy main roads quickly. Whether you are setting off toward the M6, linking across the M61, or heading west on the M58, the right passenger vehicle makes a big difference to comfort, loading and overall timing. A properly matched minibus keeps the trip simpler from the first pickup to the final stop.",
-  localRelevanceBlocks: [
-    { title: "Getting groups moving around Chesterfield", body: "Chesterfield sits in a useful position for group travel because routes split easily towards Dronfield, Liverpool, Alfreton and the wider North West. If your journey starts near the town centre, it helps to plan around the A49 and A577 corridors, especially when schools, stations and shopping traffic all overlap. A minibus is often easier to manage than several separate cars when your pickup points are spread across different parts of town.\n\nFor airport runs or event travel, keeping everyone together also helps with timing. Rather than coordinating arrivals from multiple vehicles, one minibus keeps the journey simpler and makes luggage planning easier from the start." },
-    { title: "Choosing the right size for the journey", body: "If you are heading out from Chesterfield North Western or Chesterfield Wallgate areas, or collecting people from nearby neighbourhoods before joining the motorway network, a smaller people carrier can be the neatest option for mixed age groups and light luggage. It is easier to place in tighter streets and simpler for drivers more used to standard cars.\n\nFor weddings, sports teams, school events or longer day trips, a larger minibus usually makes more sense. It gives you better passenger capacity and avoids the stop-start feel that comes with trying to convoy several vehicles across the M6 or M58 corridors." },
-    { title: "Better planning for shared travel", body: "The most useful group travel plans are the ones that deal with real details early. Think about where everyone is boarding, whether you need room for hold luggage, and how much time you want between pickups. Journeys toward Dronfield Airport, matchdays, race meetings or family events all run more smoothly when the passenger count and luggage needs are clear before collection.\n\nIf your route involves schools, hotels, venues or sports grounds, tell us that up front. We can help you narrow the choice so the minibus suits both the trip and the driver, rather than just the headcount on paper." },
-  ],
-  bottomCtaTitle: "Plan your Chesterfield minibus hire with confidence",
-  bottomCtaDescription: "Tell us where you are travelling, how many people are coming and what kind of trip you are planning. We will help you find the right minibus hire for Chesterfield.",
-  faqKicker: "Minibus hire questions",
-  faqTitle: "Chesterfield minibus hire FAQs",
-  faqs: [
-    { question: "What is Chesterfield minibus hire usually used for?", answer: "Yes, we can help with minibus hire in Chesterfield for airport runs, family travel, sporting fixtures, wedding guests and other shared journeys." },
-    { question: "How do I choose the right minibus for my trip?", answer: "Choose based on passenger numbers, luggage and journey length. A smaller people carrier may suit a family trip, while larger groups are better served by a full minibus." },
-    { question: "Can I hire a minibus without D1 on my licence?", answer: "Some larger minibuses require the right entitlement, while others are suitable for drivers without D1. Ask before booking and we will explain the options clearly." },
-    { question: "Is there enough luggage space in a minibus?", answer: "It can do, depending on the vehicle and the amount of luggage. Let us know if you are travelling with cases, prams, sports kit or event equipment." },
-    { question: "Do you provide minibuses for clubs and group outings in Chesterfield?", answer: "Yes, Chesterfield minibus hire is often a practical choice for school, club and team travel when everyone needs to arrive together." },
-    { question: "How do I arrange minibus hire in Chesterfield?", answer: "Call us with your travel dates, group size and destination. We will talk you through the available minibus options and help you choose the best fit." },
-  ],
+function createNearbyWhyChooseItems(location: string): WhyChooseText[] {
+  return [
+    {
+      title: "Useful compact fleet",
+      body: `Our compact line-up suits ${location} travel that calls for easy parking, light everyday driving and sensible motorway comfort.`,
+    },
+    {
+      title: "Manual and automatic options",
+      body: `Whether you want a simple city car or an automatic hatchback for ${location} traffic, we keep the choice practical.`,
+    },
+    {
+      title: "Straightforward booking support",
+      body: `We focus on helping ${location} customers choose a vehicle that fits the actual trip rather than overcomplicating the booking.`,
+    },
+    {
+      title: "Good fit for mixed routes",
+      body: `A compact car is often the most practical option when ${location} driving mixes residential roads, station access and quicker regional links.`,
+    },
+    {
+      title: "Wider fleet available",
+      body: `If your ${location} journey needs more than a compact car, we can also help with larger cars, vans, minibuses and trucks.`,
+    },
+    {
+      title: "Built around real local use",
+      body: `Our service is shaped around the kind of everyday driving ${location} customers actually need to do.`,
+    },
+  ]
 }
 
-const truckHireTokens: ContentTokenSet = {
-  metadata: {
-    title: "Truck Hire Chesterfield | Commercial Truck Rental",
-    description: "Truck hire in Chesterfield for removals, deliveries, site work and commercial transport. Box, curtain side, dropside, tipper and tail lift truck options available.",
-  },
-  heroImage: "/images/truck_hire_image_1.jpeg",
-  heroAlt: "Rigid hire truck parked at an industrial unit during a delivery job",
-  heroTitle: "Truck Hire Chesterfield",
-  heroDescription: "Truck hire in Chesterfield for removals, site work, larger deliveries and commercial transport. Choose from box trucks, curtain siders, tippers, recovery trucks and more.",
-  heroSecondaryActionLabel: "View truck options",
-  mainServiceKicker: "Commercial vehicle hire",
-  mainServiceTitle: "Truck hire in Chesterfield for serious carrying work",
-  mainServiceDescription: "Our truck hire service in Chesterfield is built for heavier transport tasks where a van is no longer enough. That includes removals support, site deliveries, stock movement, trade transport, recovery work and larger commercial loads. We offer a range of vehicle types so the choice is based on what the job actually needs rather than simply moving up to the biggest option.\n\nWhether you need a tail lift for boxed goods, a curtain side for easier loading access, a dropside for awkward materials or a tipper for site use, we help you make a practical choice. The aim is simple: a truck that suits the route, the payload and the working conditions on the day.",
-  mainVehicles: [
-    { body: "The Ford Luton 3.5 ton Tail Box Lift Truck is ideal for house moves, bulky goods and appliance transport where rear lift support makes loading easier.", alt: "Ford Luton 3.5 ton tail box lift truck for hire in Chesterfield" },
-    { body: "The 3.5 Tonne Tipper Transit Truck is a practical choice for site clearance, loose materials, landscaping work and building jobs.", alt: "3.5 tonne tipper transit truck for site work in Chesterfield" },
-    { body: "The 3.5 Tonne Recovery Truck suits vehicle transport and recovery tasks where secure loading and stable carriage are essential.", alt: "3.5 tonne recovery truck available in Chesterfield" },
-    { body: "The 7.5 Tonne Box Truck With Tail Lift works well for larger deliveries, stock movement and removals support with easier rear loading.", alt: "7.5 tonne box truck with tail lift for Chesterfield deliveries" },
-    { body: "The 7.5 Tonne Curtain Side Truck is well suited to pallet work and trade deliveries where side access speeds up loading and unloading.", alt: "7.5 tonne curtain side truck for loading access in Chesterfield" },
-    { body: "The 7.5 Tonne Dropside Truck is useful for building materials, site equipment and awkward loads that benefit from open-sided access.", alt: "7.5 tonne dropside truck for materials transport in Chesterfield" },
-    { body: "The 7.5 Tonne Tipper Truck is built for more demanding site work, waste movement and bulk material jobs that need higher carrying capacity.", alt: "7.5 tonne tipper truck for heavy site tasks in Chesterfield" },
-    { body: "The 7.5 Tonne Sleeper Tail Lift Truck is suited to longer working runs where loading support and added driver practicality are both useful.", alt: "7.5 tonne sleeper tail lift truck for regional runs from Chesterfield" },
-    { body: "The 18 Tonne Box Truck is designed for larger enclosed loads, distribution work and substantial stock movement.", alt: "18 tonne box truck for major commercial transport in Chesterfield" },
-    { body: "The 18 Tonne Curtain Side Truck is a strong option for pallet networks, larger deliveries and trade loads needing side access.", alt: "18 tonne curtain side truck for freight movement in Chesterfield" },
-    { body: "The 26 Tonne Curtain Side Truck suits higher-volume transport where larger payload capacity and side loading are both important.", alt: "26 tonne curtain side truck for major transport jobs in Chesterfield" },
-    { body: "The 44 Tonne Sleeper Truck is designed for substantial haulage tasks where long-distance work and serious carrying capability are required.", alt: "44 tonne sleeper truck for long haul work from Chesterfield" },
-  ],
-  whyChooseKicker: "Why choose us",
-  whyChooseTitle: "Truck hire guided by the job, not guesswork",
-  whyChooseDescription: "Truck hire only works well when the details are right. Load shape, weight, unloading method, route access and site conditions all matter. We help customers in Chesterfield think through those practical points so the vehicle suits the task properly and the job can move forward with fewer problems on the day.",
-  whyChooseItems: [
-    { title: "Useful truck choice", body: "We offer a broad truck range so you can choose based on access, load type and unloading needs rather than guessing what might work." },
-    { title: "Body styles for specific tasks", body: "Box, curtain side, dropside, tipper and tail lift options are available for very different kinds of work." },
-    { title: "Access and route awareness", body: "We help you think through route restrictions, yard access and collection points before the vehicle is booked." },
-    { title: "Fit for the load", body: "Loads differ in shape, weight and handling method, so we focus on matching the truck to the practical demands of the job." },
-    { title: "Local and regional capability", body: "From local Chesterfield work to wider regional transport, our truck hire service supports jobs that need dependable carrying capacity." },
-    { title: "Support beyond trucks", body: "If the task changes and a van or another vehicle type is more suitable, we can help through the wider self-drive fleet." },
-  ],
-  featureCtaTitle: "Talk through the load before you book",
-  featureCtaDescription: "If the job needs more than a van, we can help you choose a truck that matches the load, access conditions and route plan across Chesterfield and beyond.",
-  serviceAreasKicker: "Areas we serve",
-  serviceAreasTitle: "Truck hire coverage around Chesterfield and nearby areas",
-  serviceAreasDescription: "We support truck hire from Chesterfield into surrounding towns, industrial areas and regional routes, helping with transport jobs that need more capacity and the right body type.",
-  localRelevanceKicker: "Operational guidance",
-  localRelevanceTitle: "Truck hire that fits the route, the load and the job in Chesterfield",
-  localRelevanceDescription: "Truck hire in Chesterfield needs a practical approach because the jobs vary so widely. Some customers need a straightforward box vehicle for removals support or stock movement. Others need a curtain side for easier loading, a dropside for awkward materials, or a tipper for site work. The right truck depends on what you are moving, how it will be loaded and where it needs to go.\n\nChesterfield also sits on useful regional routes, which makes it a strong base for commercial transport. Whether the journey stays local or heads out along the M6, M58 or A49 corridors, choosing the correct size and body style helps avoid access problems and makes loading more efficient. We focus on fit for purpose rather than one-size-fits-all truck hire.",
-  localRelevanceBlocks: [
-    { title: "Routing trucks around Chesterfield", body: "Chesterfield is well connected for truck movements, but route choice matters. Jobs heading toward the M6, M58 or A580 can be straightforward with the right vehicle, while urban collections nearer the town centre may need tighter planning around access, loading bays and turning space. The more accurately the route is understood at the start, the easier it is to match the truck to the job.\n\nThat is especially important for deliveries into mixed environments where industrial estates, retail areas and residential roads all sit close together. A truck that is ideal for open motorway work may be less suitable if the delivery point has restricted yard space or awkward unloading conditions." },
-    { title: "Matching the body type to the task", body: "Truck choice is not just about carrying more. A Luton with tail lift may suit furniture, boxed stock or appliances, while a curtain side can be the better option for side loading on trade jobs. Tippers and dropsides are often more practical for site work, loose materials and jobs with frequent loading and unloading points.\n\nIf you are collecting from one of Chesterfield's industrial areas or delivering into active commercial premises, think about the handling method before the journey starts. Forklift access, handball unloading, pallet movement and loading height all affect which vehicle body works best." },
-    { title: "Planning for loading and access", body: "The busiest truck jobs are usually the ones with the least room for delay. If your route involves timed collections, warehouse drop-offs or site access windows, it helps to confirm dimensions, vehicle type and unloading requirements before the day itself. That reduces wasted trips and avoids turning up with a truck that does not fit the task.\n\nFor work around Chesterfield and onward regional runs, a clear plan saves time. Tell us whether the load is palletised, long, loose, fragile or heavy, and whether access is open yard, roadside or restricted entrance. We can then help steer you toward a truck that makes the job run more smoothly." },
-  ],
-  bottomCtaTitle: "Need the right truck for a serious load?",
-  bottomCtaDescription: "Tell us about the load, the route and the type of access involved. We will help you arrange truck hire in Chesterfield that suits the job properly.",
-  faqKicker: "Truck hire questions",
-  faqTitle: "Chesterfield truck hire FAQs",
-  faqs: [
-    { question: "How do I choose the right truck for a job in Chesterfield?", answer: "Start with the load type, access at both ends and whether you need a tail lift, curtain side, dropside or tipper body. We can help narrow it down." },
-    { question: "Do I need a special licence for truck hire?", answer: "Some trucks require the correct licence entitlement, depending on the vehicle class. Ask us before booking and we will explain what applies to the truck you need." },
-    { question: "When is a tail lift truck the best option?", answer: "A tail lift is useful when loading pallets, bulky goods, appliances or heavier items where ground-level loading is not practical." },
-    { question: "Can I hire a truck in Chesterfield for business use?", answer: "Yes, truck hire in Chesterfield is often used for site work, deliveries, removals support and commercial transport across local and regional routes." },
-    { question: "Are all loads suitable for every truck type?", answer: "That depends on the vehicle body and your load. Curtain side, box, tipper and dropside trucks all suit different kinds of work, so it is best to check in advance." },
-    { question: "What information should I have ready when arranging truck hire?", answer: "Have the collection point, delivery point, load details and any site restrictions ready. That helps us guide you to the most suitable truck more quickly." },
-  ],
+type NearbyLocationProfile = {
+  location: string
+  heroImage: string
+  heroAlt: string
+  metadataDescription: string
+  heroDescription: string
+  serviceDescription: string
+  whyChooseDescription: string
+  serviceAreasDescription: string
+  localRelevanceDescription: string
+  localBlocks: LocalBlockText[]
+  faqs: FaqText[]
 }
 
-const location1Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Sheffield | Self-Drive Vehicle Hire", description: "Compact car hire in Sheffield for local driving, station pickups and regional travel, with larger cars, vans, minibuses and trucks also available." },
-  heroImage: "/images/nearby_location_image_1.jpeg",
-  heroAlt: "Compact hire car near a town-centre route in Sheffield",
-  heroTitle: "Compact car hire in Sheffield",
-  heroDescription: "Compact car hire in Sheffield for town driving, commuting, station pickups and straightforward regional travel, with larger vehicle options available when needed.",
-  heroSecondaryActionLabel: "Check Sheffield vehicles",
-  mainServiceKicker: "Sheffield compact hire",
-  mainServiceTitle: "Self-drive compact cars for Sheffield travel",
-  mainServiceDescription: "We provide compact car hire in Sheffield for customers who want a practical self-drive vehicle that suits everyday travel. Whether you need a car for local errands, a temporary replacement, a station pickup or a business journey, a compact model gives you the right balance of convenience, comfort and manageable size.\n\nSmaller cars are often the easiest option for Sheffield roads because they are simpler to park and less cumbersome in busier areas. They also work well for short motorway stretches and regional routes, so you are not limited to town driving alone. If you prefer an automatic or want slightly more space, we can help guide you through the best available options.\n\nWe also offer a wider fleet beyond compact cars. So while the Sheffield page is led by small car hire, customers can still move into estates, larger cars, SUVs, vans, minibuses or trucks when the journey calls for it.",
-  mainVehicles: [
-    { body: "The Fiat 500 is a strong option for Sheffield town journeys where easy parking and simple local driving are the main priority.", alt: "Fiat 500 compact hire car for Sheffield town driving" },
-    { body: "A useful automatic for Sheffield drivers who want a small, stress-free car for local roads, errands and short regional trips.", alt: "Hyundai i10 automatic compact hire car in Sheffield" },
-    { body: "The Golf gives Sheffield customers a bit more room and motorway comfort while keeping the practical feel of a compact hatchback.", alt: "Volkswagen Golf hatchback for hire in Sheffield" },
-    { body: "Ideal when you want automatic convenience in Sheffield with enough space and comfort for longer drives as well as daily use.", alt: "Ford Focus automatic self-drive hire in Sheffield" },
-  ],
-  whyChooseKicker: "Why choose us in Sheffield",
-  whyChooseTitle: "Straightforward compact car hire for Sheffield drivers",
-  whyChooseDescription: "Sheffield customers often want a hire car that feels easy to arrange and sensible to use. We focus on practical compact vehicles, clear advice and a wider fleet that can support you if the job turns into something bigger than a small car trip.",
-  whyChooseItems: [
-    { title: "Built for everyday Sheffield trips", body: "Our Sheffield compact car options suit everyday use, from local appointments and family visits to station runs and regional mileage." },
-    { title: "Easy to manage locally", body: "Smaller cars make life easier in busier parts of Sheffield where parking, turning and stop-start traffic can all slow bigger vehicles down." },
-    { title: "Clear, helpful guidance", body: "We keep the hire process clear so Sheffield customers can quickly understand which vehicle best fits the journey." },
-    { title: "A fleet that can adapt", body: "If your plans change in Sheffield, we can help you move from a compact car to something with more room or a different layout." },
-    { title: "Automatic choices available", body: "Automatic options are available within the wider range for Sheffield drivers who want a simpler, more relaxed drive." },
-    { title: "Wider vehicle hire support", body: "Beyond compact cars, Sheffield customers can also arrange vans, minibuses and trucks through the same self-drive provider." },
-  ],
-  additionalServicesKicker: "More vehicle hire options in Sheffield",
-  additionalServicesTitle: "Extra vehicle options for Sheffield journeys",
-  additionalServicesDescription: "If you need more room than a compact hatchback in Sheffield, we also offer larger cars, estates, SUVs and premium automatics, along with vans, minibuses and trucks for wider transport needs.",
-  additionalVehicles: [
-    { body: "A practical choice in Sheffield when you want everyday car handling with extra space for cases, work gear or shopping.", alt: "Ford Focus Estate for added luggage space on Sheffield hires" },
-    { body: "Well suited to longer Sheffield journeys where comfort, cabin room and motorway ease matter more than a smaller footprint.", alt: "Ford Mondeo saloon for comfortable road travel from Sheffield" },
-    { body: "Useful for Sheffield drivers who want a larger automatic car for business travel, family use or longer regional mileage.", alt: "Ford Mondeo automatic available for hire in Sheffield" },
-    { body: "A good fit for Sheffield airport runs, family trips and any journey where passengers and luggage both need proper space.", alt: "Ford Mondeo Estate with extra boot space for Sheffield travel" },
-    { body: "The RAV4 Auto gives Sheffield drivers a higher seating position and useful cabin space for mixed town and motorway use.", alt: "Toyota RAV4 automatic SUV hire for flexible Sheffield driving" },
-    { body: "A refined option for Sheffield business travel, client meetings and occasions where a more premium drive is preferred.", alt: "Mercedes C Class automatic for executive hire in Sheffield" },
-    { body: "The E Class Auto suits longer Sheffield journeys where extra comfort and a more spacious executive interior are helpful.", alt: "Mercedes E Class automatic executive car hire in Sheffield" },
-    { body: "For Sheffield trips that call for more presence, comfort and room, the Range Rover offers a strong premium SUV option.", alt: "Range Rover SUV hire for premium travel in Sheffield" },
-  ],
-  featureCtaTitle: "Need a practical hire car in Sheffield?",
-  featureCtaDescription: "Need a compact hire car in Sheffield without overcomplicating the process? Contact us and we will help you check the available options.",
-  serviceAreasKicker: "Coverage around Sheffield",
-  serviceAreasTitle: "Vehicle hire serving Sheffield and nearby areas",
-  serviceAreasDescription: "We cover Sheffield and surrounding routes with practical self-drive hire, helping customers who need compact cars as well as larger vehicle options.",
-  localRelevanceKicker: "Driving in Sheffield",
-  localRelevanceTitle: "Why compact car hire works well in Sheffield",
-  localRelevanceDescription: "Sheffield works well for compact car hire because so many everyday journeys mix town-centre access with quick links out towards surrounding routes. A smaller car is practical for getting around the busier parts of Sheffield, handling station pickups, retail trips and work travel without the bulk of a larger vehicle. It also suits drivers heading between residential areas, business parks and local appointments where easy manoeuvrability matters.\n\nFrom Sheffield town centre, routes such as the A666 St Peter's Way and connections towards the M61 make it straightforward to head wider across the area. For drivers collecting a car for commuting, visiting family, or short regional travel, a compact model keeps things simple in traffic, easier in car parks and comfortable for longer stretches when needed. Sheffield customers also regularly ask about vans, minibuses and trucks, so the wider fleet is there when the journey calls for more space or carrying capacity.",
-  localRelevanceBlocks: [
-    { title: "A sensible choice for Sheffield road patterns", body: "Sheffield suits compact cars particularly well because many journeys move between town-centre traffic, local neighbourhoods and quick access routes out towards surrounding roads. A smaller hatchback makes everyday driving simpler when you are dealing with tight parking, short errands or back-to-back appointments.\n\nRoutes such as the A666 and A58 keep traffic flowing in and out of Sheffield, but once you are near busier central areas, having a car that is easy to position becomes far more useful than having extra size you do not need. For many customers, compact simply feels more practical." },
-    { title: "Helpful around central Sheffield and station trips", body: "Sheffield town centre, retail areas and station access points can all reward a smaller vehicle. If your day involves collecting someone, heading into meetings or fitting in several local stops, compact car hire keeps the trip straightforward without making parking or manoeuvring harder than it needs to be.\n\nThat is especially helpful if you are travelling around the station area or heading towards places where quick access matters more than load space. A car like the Fiat 500 or Hyundai i10 Auto is often all you need for those kinds of Sheffield journeys." },
-    { title: "Think ahead before choosing your Sheffield vehicle", body: "Not every Sheffield journey is strictly local, so it helps to match the vehicle to the full day rather than only the first stop. A compact car is ideal for routine travel, but if you expect more luggage, more passengers or a longer motorway run, a Golf or Focus Auto may be the better fit.\n\nWe also keep larger vehicles available for customers in Sheffield who realise a small car is not enough after all. Estates, SUVs, vans, minibuses and trucks are all part of the wider fleet, so changing plans does not have to mean starting the search again elsewhere." },
-  ],
-  bottomCtaTitle: "Arrange compact car hire in Sheffield",
-  bottomCtaDescription: "If you need a small hire car in Sheffield for local driving, station access or a longer run, get in touch and we will help you choose the right vehicle.",
-  faqKicker: "Sheffield hire questions",
-  faqTitle: "FAQs about compact car hire in Sheffield",
-  faqs: [
-    { question: "Is a compact car a good choice for driving in Sheffield?", answer: "Compact car hire in Sheffield suits busy local roads, town-centre parking and everyday trips where a smaller vehicle is easier to manage." },
-    { question: "What do people usually hire compact cars for in Sheffield?", answer: "Yes, Sheffield customers often use compact hire cars for station collections, shopping trips, family visits, temporary cover and regional travel." },
-    { question: "Can I get an automatic hire car in Sheffield?", answer: "Yes, subject to availability. If you want an easier drive in Sheffield traffic or on longer runs, ask about our automatic options." },
-    { question: "Do you offer larger vehicles alongside compact car hire in Sheffield?", answer: "If you need more space than a compact car in Sheffield, we can also help with estates, larger saloons, SUVs, vans, minibuses and trucks." },
-    { question: "Can I arrange last-minute car hire in Sheffield?", answer: "Yes, we can often help with short-notice compact car hire in Sheffield when a suitable vehicle is available. Calling ahead is the best way to check." },
-    { question: "What do I need to collect my hire car in Sheffield?", answer: "For Sheffield hire, bring your driving licence and your booking details. If anything else is needed, we will confirm it before collection." },
-  ],
+function createNearbyLocationTokens(profile: NearbyLocationProfile): ContentTokenSet {
+  return {
+    metadata: {
+      title: `Compact Car Hire ${profile.location} | Self-Drive Small Cars`,
+      description: profile.metadataDescription,
+    },
+    heroImage: profile.heroImage,
+    heroAlt: profile.heroAlt,
+    heroTitle: `Compact Car Hire in ${profile.location}`,
+    heroDescription: profile.heroDescription,
+    heroSecondaryActionLabel: "View vehicle options",
+    mainServiceKicker: `${profile.location} compact car hire`,
+    mainServiceTitle: `Easy self-drive compact car hire in ${profile.location}`,
+    mainServiceDescription: profile.serviceDescription,
+    mainVehicles: createCompactMainVehicleTexts(profile.location),
+    whyChooseKicker: "Why choose us",
+    whyChooseTitle: `Why compact car hire works well for ${profile.location} drivers`,
+    whyChooseDescription: profile.whyChooseDescription,
+    whyChooseItems: createNearbyWhyChooseItems(profile.location),
+    additionalServicesKicker: "More vehicle options",
+    additionalServicesTitle: `Need more than a compact car in ${profile.location}?`,
+    additionalServicesDescription: `Alongside compact car hire in ${profile.location}, we can also help with estates, larger saloons, SUVs and the wider fleet of vans, minibuses and trucks when the journey needs more room.`,
+    additionalVehicles: createCompactAdditionalVehicleTexts(profile.location),
+    featureCtaTitle: `Check compact car availability in ${profile.location}`,
+    featureCtaDescription: `Tell us what sort of ${profile.location} driving you have planned and we will help you line up a practical compact car quickly.`,
+    serviceAreasKicker: "Areas we cover",
+    serviceAreasTitle: `Vehicle hire for ${profile.location} and nearby routes`,
+    serviceAreasDescription: profile.serviceAreasDescription,
+    localRelevanceKicker: "Local driving guide",
+    localRelevanceTitle: `Why compact car hire makes sense in ${profile.location}`,
+    localRelevanceDescription: profile.localRelevanceDescription,
+    localRelevanceBlocks: profile.localBlocks,
+    bottomCtaTitle: `Book compact car hire in ${profile.location}`,
+    bottomCtaDescription: `If you need a small self-drive car in ${profile.location} for local travel, work appointments or a wider regional journey, get in touch and we will help you choose the right vehicle.`,
+    faqKicker: `${profile.location} hire FAQs`,
+    faqTitle: `Common questions about compact car hire in ${profile.location}`,
+    faqs: profile.faqs,
+  }
 }
 
-const location2Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Mansfield | Self-Drive Vehicle Hire", description: "Compact car hire in Mansfield for local trips, station travel, business use, and everyday driving. Vans, minibuses, and trucks also available." },
-  heroImage: "/images/nearby_location_image_2.jpeg",
-  heroAlt: "Compact hire car on a suburban road in Mansfield",
-  heroTitle: "Compact car hire in Mansfield",
-  heroDescription: "Compact car hire in Mansfield for local trips, station runs, business travel, and everyday journeys. Easy self-drive options with larger vehicles available too.",
-  heroSecondaryActionLabel: "View Mansfield vehicles",
-  mainServiceKicker: "Mansfield self-drive hire",
-  mainServiceTitle: "Straightforward compact car hire for Mansfield journeys",
-  mainServiceDescription: "Our compact car hire service in Mansfield is built for practical day to day travel. Whether you need a small car for local appointments, a reliable vehicle while your own is off the road, or something easy to drive for business and personal use, we can help you choose a suitable option.\n\nCompact cars are a natural fit for Mansfield because they are easy to park, comfortable on short and medium journeys, and well suited to town traffic as well as wider North West routes. We also offer automatic options and a broader self-drive range including vans, minibuses, and trucks, so you can keep everything with one provider if your plans change.",
-  mainVehicles: [
-    { body: "The Fiat 500 is ideal for Mansfield drivers who want a compact, easy to park car for local errands, short commutes, and simple everyday travel.", alt: "Fiat 500 hire car for compact driving in Mansfield" },
-    { body: "A Hyundai i10 Auto makes Mansfield town driving easy, with the convenience of automatic transmission and a size that suits tighter parking spots.", alt: "Hyundai i10 automatic available for hire in Mansfield" },
-    { body: "The VW Golf is a strong all rounder for Mansfield, giving you extra comfort and space for longer drives while staying manageable around town.", alt: "VW Golf self-drive hire option in Mansfield" },
-    { body: "If you want automatic driving with everyday practicality, the Focus Auto suits Mansfield business use, family journeys, and regular regional travel.", alt: "Ford Focus automatic hire car in Mansfield" },
-  ],
-  whyChooseKicker: "Why Mansfield drivers choose us",
-  whyChooseTitle: "A practical choice for Mansfield vehicle hire",
-  whyChooseDescription: "Hiring a car in Mansfield should feel simple, not overcomplicated. We focus on practical vehicles, clear communication, and helping customers choose something that suits the roads they will actually be driving. That might mean a small city-friendly car, an automatic for easier stop start traffic, or a larger option when the journey needs more space.",
-  whyChooseItems: [
-    { title: "Town-friendly vehicles", body: "Our Mansfield car hire range is centred on vehicles that are easy to live with on typical local journeys." },
-    { title: "Practical journey matching", body: "Whether you need a car for a quick local run or a longer journey, we help match the booking to the travel plan." },
-    { title: "Automatic options available", body: "Automatic compact cars are available for Mansfield drivers who want an easier drive in busier traffic." },
-    { title: "Wider fleet when needed", body: "If you need more room than a compact car offers, we can also help with larger cars and wider vehicle types." },
-    { title: "Useful for many journey types", body: "The service suits personal travel, commuting, business use, and temporary replacement vehicle needs around Mansfield." },
-    { title: "Helpful booking support", body: "You can speak to us directly to check availability and narrow down the most suitable vehicle for Mansfield travel." },
-  ],
-  additionalServicesKicker: "More vehicle hire options in Mansfield",
-  additionalServicesTitle: "Extra fleet options for Mansfield travel",
-  additionalServicesDescription: "If a compact car is not quite enough for your plans in Mansfield, we also offer larger cars, estates, SUVs and premium automatics, plus vans, minibuses and trucks.",
-  additionalVehicles: [
-    { body: "Useful in Mansfield when you want the feel of a car but need a larger boot for bags, equipment or shopping.", alt: "Ford Focus Estate for practical luggage space on Mansfield hires" },
-    { body: "A comfortable larger car for Mansfield drivers making longer regional or motorway journeys.", alt: "Ford Mondeo saloon for longer journeys from Mansfield" },
-    { body: "A practical automatic option in Mansfield for customers who want extra room and a more relaxed drive.", alt: "Ford Mondeo automatic available for hire in Mansfield" },
-    { body: "Well suited to Mansfield airport journeys, family travel and trips where luggage space matters.", alt: "Ford Mondeo Estate with generous boot space for Mansfield travel" },
-    { body: "A RAV4 Auto gives Mansfield drivers extra ride height and easy automatic driving for longer trips, family travel, and mixed urban and motorway use.", alt: "Toyota RAV4 automatic SUV hire in Mansfield" },
-    { body: "The C Class Auto suits Mansfield business travel, client visits, and comfortable regional journeys when you want a more refined drive.", alt: "Mercedes C Class automatic available for hire in Mansfield" },
-    { body: "An E Class Auto is a strong choice in Mansfield for executive travel, airport runs, and longer journeys where comfort matters.", alt: "Mercedes E Class automatic hire option in Mansfield" },
-    { body: "For Mansfield drivers needing space, presence, and a higher driving position, the Range Rover fits family trips, events, and longer road journeys.", alt: "Range Rover available for self-drive hire in Mansfield" },
-  ],
-  featureCtaTitle: "Check Mansfield vehicle availability",
-  featureCtaDescription: "Need a car for local travel in Mansfield or a journey further afield? Get in touch and check which vehicles are available for your dates.",
-  serviceAreasKicker: "Around Mansfield",
-  serviceAreasTitle: "Vehicle hire around Mansfield and nearby routes",
-  serviceAreasDescription: "We support Mansfield and surrounding areas with compact car hire, while also offering access to vans, minibuses, and trucks when a different vehicle suits the job better.",
-  localRelevanceKicker: "Driving in Mansfield",
-  localRelevanceTitle: "Why compact car hire works well in Mansfield",
-  localRelevanceDescription: "Mansfield is the kind of place where a compact hire car makes immediate sense. Local driving can include town centre calls, retail trips, work appointments, school runs, and short notice travel, all mixed into one day. A smaller vehicle keeps those journeys easy to manage while still being comfortable enough for trips beyond town.\n\nIt also works well for people travelling in and out of Mansfield for work, family visits, or onward connections. With practical road links across the wider area, compact car hire gives you enough flexibility for local movement without making parking and manoeuvring harder than it needs to be.",
-  localRelevanceBlocks: [
-    { title: "A good fit for everyday Mansfield driving", body: "Driving around Mansfield is usually straightforward when you pick a car that suits everyday local roads. Compact models are especially useful if your route includes the town centre, residential streets, or regular stops through areas where parking space can be tighter than expected.\n\nIf your day takes you towards the A58, the East Lancashire Road corridor, or links out towards Rainford and Haydock, a smaller car keeps things simple. It is often the sensible choice for a mix of errands, work appointments, and short regional drives." },
-    { title: "Useful for station links and onward routes", body: "Mansfield journeys often combine local access with wider travel, especially for people connecting to rail services, retail parks, and business addresses. A compact car works well if you are moving between the station area, retail trips, and onward routes without wanting the bulk of a larger vehicle.\n\nFor drivers heading towards the M62 or making regular trips across Merseyside and the North West, keeping the vehicle manageable matters. You still get enough comfort for longer runs, while making town parking and repeat stops less of a chore." },
-    { title: "Easy to scale up if your plans change", body: "Not every Mansfield booking is just about a small car. Sometimes plans shift from a simple local run to carrying more passengers or more load space than expected. That is why it helps to use a hire company that can also assist with vans, minibuses, and trucks when needed.\n\nIf you start with compact car hire in Mansfield but realise the job is bigger, it is easier to adjust when the wider fleet is available. That keeps your travel plans practical without overcomplicating the booking." },
-  ],
-  bottomCtaTitle: "Book your Mansfield hire vehicle",
-  bottomCtaDescription: "If you need compact car hire in Mansfield, talk to our team and we will help you find a practical vehicle for the journey ahead.",
-  faqKicker: "Mansfield hire questions",
-  faqTitle: "Compact car hire FAQs for Mansfield",
-  faqs: [
-    { question: "Can I arrange compact car hire in Mansfield at short notice?", answer: "Yes, we can help arrange compact car hire for Mansfield when you need a practical vehicle for local driving, station journeys, or onward travel. Availability depends on the vehicle and timing, so it is best to check with us directly." },
-    { question: "Why choose a compact car for driving in Mansfield?", answer: "Compact cars are often a good fit for Mansfield because they are easier to park, simple to handle on local roads, and well suited to everyday journeys around town and beyond." },
-    { question: "Do you offer automatic cars for Mansfield hires?", answer: "Yes, Mansfield customers can ask about automatic compact car options. They are especially useful for town driving, busier junctions, and stop start traffic." },
-    { question: "What kind of journeys are compact hire cars used for in Mansfield?", answer: "Many Mansfield bookings are for local appointments, visiting family, temporary vehicle cover, shopping trips, and rail connections, but the right car also works well for longer regional travel." },
-    { question: "Can I hire more than just a compact car in Mansfield?", answer: "Yes, alongside compact cars in Mansfield we also offer vans, minibuses, and trucks, so if your plans change we can help you look at a more suitable vehicle." },
-    { question: "How do I choose the right hire car for Mansfield travel?", answer: "When booking your Mansfield hire, tell us about passenger numbers, luggage, whether you want manual or automatic, and the type of journey you are planning. That helps us suggest the best option." },
-  ],
-}
+    const homepageTokens: ContentTokenSet = {
+      metadata: {
+        title: "Compact Car Hire Chesterfield | Self-Drive Vehicle Hire",
+        description: "Compact car hire in Chesterfield for town driving, station access and Peak District-bound regional travel, with vans, minibuses and trucks also available when you need more room.",
+      },
+      heroImage: "/images/compactcarhirechesterfield-co-uk-homepage-compact-car-fleet.png",
+      heroAlt: "Compact hire cars prepared for everyday driving in Chesterfield",
+      heroTitle: "Compact car hire in Chesterfield made practical",
+      heroDescription: "Compact car hire in Chesterfield for local driving, station pickups, business mileage and wider trips using the A61, A617, A619 and M1 links, backed by a broader self-drive fleet when you need extra space.",
+      heroSecondaryActionLabel: "View vehicle options",
+      mainServiceKicker: "Compact car hire",
+      mainServiceTitle: "Self-drive compact cars for everyday Chesterfield journeys",
+      mainServiceDescription: `Our Chesterfield compact car hire service is built around the sort of journeys people actually make from town. Some bookings stay close to the centre and need a car that remains easy around ordinary parking, local retail stops and residential roads. Others mix station access near Chesterfield railway station with onward mileage on the A61, A617, A619 or a quick link onto the M1. A compact hatchback usually handles that balance well because it feels manageable locally without becoming tiring on the wider drive.
 
-const location3Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Rotherham | Self-Drive Vehicle Hire", description: "Compact car hire in Rotherham for commuting, local trips, station travel, and business use. Wider self-drive options include vans, minibuses, and trucks." },
-  heroImage: "/images/nearby_location_image_1.jpeg",
-  heroAlt: "Compact hire car on a commuter-style road near Rotherham town centre",
-  heroTitle: "Compact car hire in Rotherham made simple",
-  heroDescription: "Compact car hire in Rotherham for commuting, shopping trips, local appointments, and onward travel. Practical self-drive vehicles with wider fleet options available.",
-  heroSecondaryActionLabel: "View Rotherham options",
-  mainServiceKicker: "Rotherham vehicle hire",
-  mainServiceTitle: "Compact car hire for everyday travel in Rotherham",
-  mainServiceDescription: "We provide compact car hire in Rotherham for customers who need a vehicle that is easy to drive, simple to park, and suitable for all kinds of everyday travel. Whether you are covering local appointments, sorting temporary transport, commuting, or heading out for a longer trip, we can help you choose a vehicle that fits.\n\nCompact cars are especially useful in Rotherham because they cope well with mixed driving patterns. You get the convenience needed for town use without giving up comfort for wider regional journeys. If you need something larger, our broader fleet includes bigger cars, vans, minibuses, and trucks.",
-  mainVehicles: [
-    { body: "The Fiat 500 is a neat option for Rotherham journeys where easy parking, short local trips, and simple town driving are the priority.", alt: "Fiat 500 compact hire car for Rotherham roads" },
-    { body: "A Hyundai i10 Auto suits Rotherham customers who want an automatic compact car for local travel, commuting, and everyday convenience.", alt: "Hyundai i10 automatic hire option in Rotherham" },
-    { body: "The VW Golf works well in Rotherham if you want a compact car with a little more cabin comfort for regular longer drives.", alt: "VW Golf self-drive vehicle available in Rotherham" },
-    { body: "For Rotherham business travel, family use, or regional journeys, the Focus Auto offers practical space with easy automatic driving.", alt: "Ford Focus automatic car hire in Rotherham" },
-  ],
-  whyChooseKicker: "Why Rotherham drivers choose us",
-  whyChooseTitle: "A practical self-drive option for Rotherham",
-  whyChooseDescription: "Rotherham customers usually want vehicle hire to be useful, not complicated. We keep the focus on practical self-drive options, sensible guidance, and cars that make day to day travel easier. That means helping you choose a vehicle based on the journey itself rather than pushing something unsuitable.",
-  whyChooseItems: [
-    { title: "Good everyday fit", body: "Our Rotherham compact cars are chosen for straightforward local use, comfortable driving, and everyday practicality." },
-    { title: "Journey-led advice", body: "We help Rotherham customers match the vehicle to the trip, whether that means town driving, commuting, or a longer run." },
-    { title: "Automatic cars available", body: "Automatic choices are available for Rotherham bookings where easier driving is the priority." },
-    { title: "Space when you need it", body: "If you need more room than a compact hatchback offers, we can guide you towards larger alternatives." },
-    { title: "Suitable for work or home", body: "Our Rotherham service works for both personal and business use, from local appointments to temporary cover." },
-    { title: "Straightforward support", body: "You can contact us directly to check vehicle suitability and availability for Rotherham travel plans." },
-  ],
-  additionalServicesKicker: "More than compact cars in Rotherham",
-  additionalServicesTitle: "Wider vehicle choice for Rotherham drivers",
-  additionalServicesDescription: "If your Rotherham journey needs more room, more comfort, or a higher spec vehicle, we can help with larger car options while still keeping the booking straightforward. We also offer vans, minibuses, and trucks for customers whose plans go beyond compact car hire.",
-  additionalVehicles: [
-    { body: "The Focus Estate is a useful step up for Rotherham customers needing extra boot space for luggage, work kit, or longer family journeys.", alt: "Ford Focus Estate hire vehicle for Rotherham travel" },
-    { body: "A Mondeo suits Rotherham drivers looking for a comfortable car for longer motorway runs, business travel, or day to day use with more cabin room.", alt: "Ford Mondeo available for self-drive hire in Rotherham" },
-    { body: "The Mondeo Auto offers added comfort for Rotherham journeys where automatic driving and extra interior space make the day easier.", alt: "Ford Mondeo automatic hire option in Rotherham" },
-    { body: "For Rotherham bookings that need both comfort and carrying space, the Mondeo Estate works well for extended trips, luggage, and everyday practicality.", alt: "Ford Mondeo Estate available for hire in Rotherham" },
-    { body: "A RAV4 Auto gives Rotherham drivers more space and a raised driving position for family travel, business trips, and longer regional journeys.", alt: "Toyota RAV4 automatic hire vehicle in Rotherham" },
-    { body: "The C Class Auto is a smart option in Rotherham for professional travel, client meetings, and comfortable journeys across the wider area.", alt: "Mercedes C Class automatic available for hire in Rotherham" },
-    { body: "An E Class Auto suits Rotherham customers who want a refined vehicle for executive travel, airport runs, or longer distance driving.", alt: "Mercedes E Class automatic self-drive hire in Rotherham" },
-    { body: "The Range Rover is well suited to Rotherham bookings where you want extra room, strong road presence, and comfort for family or event travel.", alt: "Range Rover hire option for Rotherham journeys" },
-  ],
-  featureCtaTitle: "Check available hire cars for Rotherham",
-  featureCtaDescription: "Planning a journey in Rotherham or heading further out on the main road network? Contact us to check available compact cars and larger alternatives.",
-  serviceAreasKicker: "Around Rotherham",
-  serviceAreasTitle: "Serving Rotherham and surrounding travel routes",
-  serviceAreasDescription: "Our vehicle hire service supports Rotherham and nearby routes with compact cars for daily travel, plus larger vehicles for customers who need more space or carrying capacity.",
-  localRelevanceKicker: "Rotherham travel guide",
-  localRelevanceTitle: "Why compact cars suit Rotherham so well",
-  localRelevanceDescription: "Rotherham drivers often need a car that can handle a bit of everything in the same day. That may mean local errands in town, work travel, family visits, or a run out onto the wider road network. Compact car hire suits that pattern well because it stays easy to handle while still covering longer trips comfortably.\n\nIt is also a sensible choice if parking, repeated stops, or busier local traffic are part of the journey. A smaller hire vehicle helps keep things straightforward, especially when your travel plan is practical rather than flashy.",
-  localRelevanceBlocks: [
-    { title: "Built for practical Rotherham journeys", body: "Rotherham is well suited to compact car hire because many journeys are short, mixed purpose, and spread across residential streets, local shops, and regular town centre stops. A smaller vehicle helps you stay flexible without making simple parking tasks harder than they need to be.\n\nIf your route takes you around the A580 East Lancashire Road corridor or through everyday local traffic, a compact car keeps the drive manageable. It is a good match for routine trips where convenience matters more than extra bulk." },
-    { title: "Useful around town and beyond", body: "For people travelling in and out of Rotherham for work, family commitments, or appointments, a compact hire car gives the right balance of economy of movement and comfort. You can cover local miles easily, then continue onto wider routes without feeling under-equipped.\n\nConnections towards the Atherleigh Way area and onward links around the town make a small, easy to place vehicle especially useful. If your day includes several stops rather than one straight run, compact size becomes a real advantage." },
-    { title: "Flexible options if plans change", body: "Rotherham bookings are not always the same from one customer to the next. Some need a compact car for commuting or temporary cover, while others start small and then realise they need estate space, a van, or a people carrying option.\n\nBecause we offer more than one type of vehicle, it is easier to keep your hire practical. If your Rotherham plans change, you are not locked into one narrow choice." },
-  ],
-  bottomCtaTitle: "Arrange your Rotherham car hire",
-  bottomCtaDescription: "Speak to us about compact car hire in Rotherham and we will help you find a vehicle that fits your route, passenger needs, and travel plans.",
-  faqKicker: "Rotherham FAQs",
-  faqTitle: "Questions about compact car hire in Rotherham",
-  faqs: [
-    { question: "What is compact car hire in Rotherham best suited to?", answer: "Compact car hire in Rotherham is a good option for local travel, commuting, family visits, and journeys connecting into surrounding routes. Smaller cars are often easier to park and simpler to manage on busy days." },
-    { question: "Can I book an automatic hire car in Rotherham?", answer: "Yes, automatic cars are available for Rotherham hires. They can be especially useful if you expect regular stop start traffic or simply prefer an easier driving experience." },
-    { question: "Why are compact cars a sensible choice for Rotherham drivers?", answer: "Rotherham has a mix of town driving, residential routes, and connections out towards major roads, so a compact vehicle gives you flexibility without feeling oversized for everyday use." },
-    { question: "Can I upgrade from a compact car for my Rotherham journey?", answer: "Yes, if your Rotherham booking needs more space for passengers or luggage, we can also help with larger cars and other vehicle types where suitable." },
-    { question: "Do you offer other vehicle hire services in Rotherham?", answer: "Alongside compact car hire in Rotherham, we also offer vans, minibuses, and trucks. That is useful if your requirements change after you first enquire." },
-    { question: "How do I pick the right hire car for Rotherham travel?", answer: "The best way to choose a Rotherham hire car is to think about passenger numbers, luggage, the length of the trip, and whether you want manual or automatic. We can help narrow it down." },
-  ],
-}
+That makes compact cars a sensible fit for business appointments, temporary replacement transport, family visits and short regional travel from Chesterfield. If the plan grows beyond what a small car should reasonably carry, we can also help with larger cars, estates, SUVs and the wider fleet of vans, minibuses and trucks.`,
+      mainVehicles: createCompactMainVehicleTexts("Chesterfield"),
+      whyChooseKicker: "Why choose us",
+      whyChooseTitle: "A practical approach to self-drive hire in Chesterfield",
+      whyChooseDescription: "We keep compact car hire straightforward for Chesterfield customers by focusing on useful vehicles, clear support and the sort of routes people are really covering between town driving, station access and bigger Derbyshire links.",
+      whyChooseItems: [
+        { title: "Cars that suit real journeys", body: "Our compact range is chosen around everyday usability, with smaller cars that feel comfortable both in town and on wider A-road mileage." },
+        { title: "Straightforward vehicle choice", body: "If you need an easy local hatchback, an automatic or something with a little more luggage room, we keep the choices practical rather than confusing." },
+        { title: "Useful local fit", body: "Chesterfield bookings often combine town-centre travel, station access and quick links onto the A61, A617, A619 or M1, so the fleet is shaped around that kind of use." },
+        { title: "Support beyond compact cars", body: "If the journey changes, we can also help with larger cars, vans, minibuses and trucks without sending you elsewhere." },
+        { title: "Clear booking help", body: "The focus is on what the vehicle needs to do in practice, not on vague wording or complicated booking language." },
+        { title: "Flexible around changing plans", body: "Replacement transport, mixed local-regional journeys and short-notice bookings are common, and we keep the hire useful around that." },
+      ],
+      additionalServicesKicker: "Wider fleet options",
+      additionalServicesTitle: "More vehicle choice when your Chesterfield trip needs extra room",
+      additionalServicesDescription: "If a compact hatchback is not the right fit, we can also help with larger cars, estates, SUVs and executive automatics. The wider self-drive fleet also includes vans, minibuses and trucks for bigger transport jobs.",
+      additionalVehicles: createCompactAdditionalVehicleTexts("Chesterfield"),
+      featureCtaTitle: "Looking for the right vehicle in Chesterfield?",
+      featureCtaDescription: "Tell us what sort of driving you have planned and we will help you choose a compact car or a larger vehicle that makes practical sense.",
+      serviceAreasKicker: "Areas we cover",
+      serviceAreasTitle: "Vehicle hire around Chesterfield and surrounding towns",
+      serviceAreasDescription: "We support customers in Chesterfield and across nearby Derbyshire and South Yorkshire routes, with compact car hire backed by the wider self-drive fleet when extra space is needed.",
+      localRelevanceKicker: "Driving in Chesterfield",
+      localRelevanceTitle: "Why compact car hire works well in Chesterfield",
+      localRelevanceDescription: `Chesterfield is the sort of place where a compact car often feels like the sensible middle ground. Local journeys can involve town-centre turns, supermarket access, station pickups and ordinary parking, while wider routes quickly open out onto the A61, A617, A619 and M1. A smaller hatchback keeps the local part straightforward without feeling underdone once the booking widens into regional mileage.
 
-const location4Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Derby | Vehicle Hire Derby", description: "Compact car hire in Derby for local travel, station runs and regional driving, with vans, minibuses and trucks also available when needed." },
-  heroImage: "/images/nearby_location_image_2.jpeg",
-  heroAlt: "Compact hire car on a business-travel route in Derby",
-  heroTitle: "Compact Car Hire in Derby",
-  heroDescription: "Compact car hire in Derby for everyday travel, station pickups, business meetings and regional journeys. Easy-to-drive vehicles with support from a practical local team.",
-  heroSecondaryActionLabel: "View vehicle options",
-  mainServiceKicker: "Derby compact car hire",
-  mainServiceTitle: "Practical car hire for Derby journeys",
-  mainServiceDescription: "Compact car hire in Derby suits everything from station runs and business travel to shopping trips and weekend plans. A smaller car is easy to handle around the town centre, residential streets and busy retail areas, while still being comfortable for longer journeys using the M6, M62 and A49. If you need a straightforward self-drive option for local travel in Derby, we offer practical cars that are simple to park, economical on everyday mileage and well suited to solo drivers, couples and small families.",
-  mainVehicles: [
-    { body: "The Fiat 500 is a smart fit for Derby town driving, short local trips and easy parking near busy central areas.", alt: "Fiat 500 compact hire car for Derby" },
-    { body: "The Hyundai i10 Auto is ideal for drivers who want a small automatic for comfortable local travel around Derby.", alt: "Hyundai i10 automatic hire car for Derby" },
-    { body: "The VW Golf offers extra room and motorway confidence while still staying practical for everyday use in Derby.", alt: "VW Golf hire car for Derby travel" },
-    { body: "The Focus Auto suits mixed Derby journeys, giving you automatic ease for commuting, business calls and regional runs.", alt: "Ford Focus automatic hire car in Derby" },
-  ],
-  whyChooseKicker: "Why Derby drivers call us",
-  whyChooseTitle: "A practical choice for compact car hire in Derby",
-  whyChooseDescription: "Hiring a compact car in Derby should feel practical, not overcomplicated. We focus on useful vehicles, clear guidance and a service that works for real journeys, whether you are travelling locally, heading out on business or connecting with wider routes across the region.",
-  whyChooseItems: [
-    { title: "Compact cars that fit the area", body: "Choose a smaller car that suits town driving, station access and everyday travel around Derby." },
-    { title: "Straightforward vehicle guidance", body: "Our team helps match the vehicle to the journey so you are not left with more car than you need." },
-    { title: "Useful choice across the fleet", body: "Automatic and manual compact options make it easier to book a car you feel comfortable driving in Derby." },
-    { title: "Ready for local and regional use", body: "From local errands to regional travel, our vehicles are suited to the mixed driving patterns common around Derby." },
-    { title: "Wider hire options available", body: "If your plans expand beyond compact car hire in Derby, we can also arrange larger vehicles from the same fleet." },
-    { title: "Easy to arrange", body: "We keep the process clear and practical so booking the right vehicle in Derby feels simple." },
-  ],
-  additionalServicesKicker: "More than compact cars in Derby",
-  additionalServicesTitle: "Broader vehicle choice for Derby travel",
-  additionalServicesDescription: "Derby journeys vary from local calls and station runs to business travel and longer motorway driving, so it helps to have more than one option. Alongside compact cars, we can help with larger cars plus vans, minibuses, and trucks where the journey calls for them.",
-  additionalVehicles: [
-    { body: "The Focus Estate gives Derby drivers extra luggage room for business travel, family trips, and longer journeys without moving into a much larger vehicle.", alt: "Ford Focus Estate hire car for Derby journeys" },
-    { body: "A Mondeo suits Derby customers who want a comfortable car for regular motorway use, client visits, or longer day trips.", alt: "Ford Mondeo available for hire in Derby" },
-    { body: "The Mondeo Auto is a practical choice in Derby for drivers who want added cabin space and relaxed automatic driving.", alt: "Ford Mondeo automatic self-drive hire in Derby" },
-    { body: "For Derby travel that needs both passenger comfort and strong boot capacity, the Mondeo Estate is a dependable all round option.", alt: "Ford Mondeo Estate available for Derby hire" },
-    { body: "A RAV4 Auto works well for Derby drivers wanting a higher seating position, flexible space, and comfort for regional travel.", alt: "Toyota RAV4 automatic hire vehicle in Derby" },
-    { body: "The C Class Auto is well suited to Derby business use, executive travel, and professional journeys across the North West.", alt: "Mercedes C Class automatic available for hire in Derby" },
-    { body: "An E Class Auto gives Derby customers extra comfort for longer motorway routes, airport runs, and higher end travel needs.", alt: "Mercedes E Class automatic hire option in Derby" },
-    { body: "The Range Rover suits Derby bookings where you want generous space, a raised driving position, and strong comfort for family or event travel.", alt: "Range Rover available for self-drive hire in Derby" },
-  ],
-  featureCtaTitle: "Need compact car hire in Derby?",
-  featureCtaDescription: "If you need a practical compact car in Derby, speak to our team and we will help you choose the right vehicle for local trips, business travel or onward journeys.",
-  serviceAreasKicker: "Around Derby",
-  serviceAreasTitle: "Vehicle hire in and around Derby",
-  serviceAreasDescription: "We provide compact car hire across Derby and nearby areas, with support for drivers who need an easy local vehicle as well as access to vans, minibuses and trucks.",
-  localRelevanceKicker: "Driving in Derby",
-  localRelevanceTitle: "Why compact car hire works well in Derby",
-  localRelevanceDescription: "Derby is the kind of place where a compact car makes immediate sense. The town sits between major motorway links and busy local roads, but many day-to-day journeys still depend on being able to park easily, turn around quickly and move between central streets, residential areas and business locations without hassle. For that kind of driving, a smaller car is often the most practical choice.\n\nIt is also a town with varied travel patterns. Some drivers need a car for rail connections, some for office visits, and others for errands, family travel or short regional trips. Compact car hire in Derby suits that mix well, giving you a vehicle that feels comfortable on local roads while still being ready for travel farther out when needed.",
-  localRelevanceBlocks: [
-    { title: "Driving around central Derby", body: "Derby works well with a compact car because so many journeys involve switching between town-centre streets, retail parks and motorway links. If you are heading near Golden Square, the Cultural Quarter or the station approaches, a smaller vehicle is simply easier to place and easier to live with through a busy day.\n\nThe road network also means you can be in and out quickly when plans change. Routes such as the A49, A50 and A57 connect different parts of Derby efficiently, while the M62 and M6 are close enough to make regional travel straightforward without needing a larger car." },
-    { title: "Stations, offices and onward travel", body: "Compact car hire is especially useful in Derby if your day includes rail connections or office visits. Around Derby Central and Derby Bank Quay, access can feel more manageable in a smaller vehicle, particularly when you are handling luggage, collecting colleagues or making a quick onward trip after arriving by train.\n\nFor business users travelling to Birchwood or visiting customers across the wider area, a compact hatchback gives a practical balance of comfort and manoeuvrability. It is well suited to mixed driving, from town traffic to short motorway stretches, without feeling oversized for tighter parking areas." },
-    { title: "Planning practical journeys from Derby", body: "Derby is often a link point rather than a final stop, which makes choosing the right vehicle important. If your plans include shopping collections, family visits or leisure trips out toward surrounding routes, a compact car keeps things simple while still offering enough room for the usual bags, cases and day-to-day items.\n\nIt also helps to think about timing. Roads around key retail and commuter zones can feel busier at peak periods, so collecting the right car for the job can make the whole journey smoother. If you later need extra carrying space, we can also help with vans, minibuses and trucks from the wider fleet." },
-  ],
-  bottomCtaTitle: "Book a hire car for Derby",
-  bottomCtaDescription: "Need compact car hire in Derby? Get in touch and we will help you choose a practical self-drive vehicle for town, business, or motorway use.",
-  faqKicker: "Derby FAQs",
-  faqTitle: "Derby compact car hire questions",
-  faqs: [
-    { question: "What is compact car hire in Derby useful for?", answer: "Compact car hire in Derby is ideal for local business travel, station connections, shopping trips, commuting, and everyday journeys where easy parking matters." },
-    { question: "Can I hire an automatic car in Derby?", answer: "Yes, automatic options are available for Derby hires, which can be especially helpful if your route includes frequent junctions, queues, or regular town driving." },
-    { question: "Why choose a compact hire car for Derby travel?", answer: "A compact car makes sense in Derby because it is easy to handle in busy areas while still being comfortable for trips out on the main road network." },
-    { question: "Can I use a compact hire car in Derby for business travel?", answer: "Yes, if your Derby plans involve more luggage, more passengers, or a different kind of journey, we can also help with larger cars and other vehicle types." },
-    { question: "Why choose a compact car for driving in Derby?", answer: "A compact car suits many Derby journeys because it is easier to park around the town centre, convenient for station runs, and comfortable for local and regional travel." },
-    { question: "Do you offer other vehicle hire services in Derby?", answer: "Yes. Alongside compact car hire in Derby, we can also help with vans, minibuses and trucks when your plans need more space or carrying capacity." },
-  ],
-}
+That balance is useful for everyday appointments, business travel, family visits and replacement transport. Chesterfield station access, retail stops near the centre and practical onward travel towards Sheffield, Derby or the Peak District all reward a vehicle that is easy to place, easy to park and still settled enough for the larger road section of the day.`,
+      localRelevanceBlocks: [
+        {
+          title: "A sensible fit for mixed Chesterfield journeys",
+          body: `Many Chesterfield bookings combine local movement with a quick change onto larger roads. A compact hatchback keeps the town-centre part of the trip simple while still being comfortable enough once the route widens towards the A61, A617, A619 or M1.
 
-const location5Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Worksop | Vehicle Hire Worksop", description: "Compact car hire in Worksop for local trips, station travel and regional driving, with access to a wider fleet when your plans need more space." },
-  heroImage: "/images/nearby_location_image_2.jpeg",
-  heroAlt: "Compact hire car driving near a retail and road-link area in Worksop",
-  heroTitle: "Compact Car Hire in Worksop",
-  heroDescription: "Compact car hire in Worksop for local errands, commuting, rail connections and wider Lancashire journeys. A practical choice when you want easy driving and simple parking.",
-  heroSecondaryActionLabel: "Check available vehicles",
-  mainServiceKicker: "Worksop compact cars",
-  mainServiceTitle: "Compact hire cars for everyday Worksop travel",
-  mainServiceDescription: "Our compact car hire in Worksop is designed for drivers who want a vehicle that feels easy to manage without giving up everyday comfort. Whether you need a small city-style car for errands and appointments or a slightly larger hatchback for regular travel, we offer sensible options for the way people move around Worksop. Compact cars are a good match for local parking, daily driving and short regional routes where flexibility matters more than unnecessary size.\n\nThey also make sense for mixed-use bookings. Many Worksop journeys combine town-centre stops, station access and trips onto larger roads, so having a car that handles all of that comfortably can make the day much easier.",
-  mainVehicles: [
-    { body: "The Fiat 500 is ideal for quick Worksop journeys, easy parking and simple town-centre driving.", alt: "Fiat 500 compact hire car in Worksop" },
-    { body: "The Hyundai i10 Auto gives Worksop drivers a small automatic that feels comfortable and easy to handle.", alt: "Hyundai i10 automatic rental car for Worksop" },
-    { body: "The VW Golf is a versatile option for Worksop travel, combining everyday practicality with solid comfort on longer runs.", alt: "VW Golf hire car for Worksop use" },
-    { body: "The Focus Auto suits Worksop drivers who want automatic convenience with space for regular travel and errands.", alt: "Ford Focus automatic hire car in Worksop" },
-  ],
-  whyChooseKicker: "Why Worksop customers choose us",
-  whyChooseTitle: "A sensible approach to compact car hire in Worksop",
-  whyChooseDescription: "When you need a hire car in Worksop, the right vehicle should fit naturally into your plans. We keep the focus on sensible compact options, straightforward booking support and a fleet that can also scale up if your journey turns into something bigger.",
-  whyChooseItems: [
-    { title: "Built for everyday use", body: "Our compact cars are well suited to the practical, mixed driving that is common around Worksop." },
-    { title: "Easy to live with", body: "Small, manageable vehicles make local parking and repeated stops simpler across Worksop." },
-    { title: "Choice that stays practical", body: "From simple runabouts to more spacious hatchbacks, we offer useful options for different Worksop journeys." },
-    { title: "Guidance that makes sense", body: "We help you pick a vehicle based on how you will use it, not just on category alone." },
-    { title: "Flexibility across the fleet", body: "If your Worksop booking changes, we can often point you toward a larger car, van, minibus or truck instead." },
-    { title: "Simple local service", body: "Our focus is on keeping vehicle hire in Worksop straightforward, useful and easy to arrange." },
-  ],
-  additionalServicesKicker: "More vehicle hire in Worksop",
-  additionalServicesTitle: "Extra hire choices beyond compact cars in Worksop",
-  additionalServicesDescription: "While compact cars are a strong choice for Worksop, some trips need more room, more comfort or a different driving setup. Our wider fleet covers those needs without losing the same practical approach.",
-  additionalVehicles: [
-    { body: "The Focus Estate works well in Worksop when you want compact-style driving with added boot space for luggage, equipment or shopping.", alt: "Ford Focus Estate hire vehicle for Worksop" },
-    { body: "The Mondeo suits longer Worksop journeys where extra cabin comfort matters for business travel or family use.", alt: "Ford Mondeo hire car for Worksop journeys" },
-    { body: "The Mondeo Auto is a smooth option for Worksop drivers who want a roomy automatic for regional roads and motorway travel.", alt: "Ford Mondeo automatic hire car in Worksop" },
-    { body: "The Mondeo Estate adds useful carrying space for Worksop trips that involve cases, work items or larger day-to-day loads.", alt: "Ford Mondeo Estate hire car for Worksop" },
-    { body: "The RAV4 Auto gives you a higher driving position and flexible space, useful for family travel in and around Worksop.", alt: "Toyota RAV4 automatic hire vehicle for Worksop" },
-    { body: "The C Class Auto is a refined choice for Worksop business users and drivers wanting a more executive feel.", alt: "Mercedes C Class automatic hire car in Worksop" },
-    { body: "The E Class Auto is well suited to longer Worksop journeys where comfort, cabin space and effortless driving all matter.", alt: "Mercedes E Class automatic hire car for Worksop" },
-    { body: "The Range Rover offers generous space and a more substantial drive for Worksop trips that call for extra presence and comfort.", alt: "Range Rover hire vehicle for Worksop travel" },
-  ],
-  featureCtaTitle: "Looking for a compact car in Worksop?",
-  featureCtaDescription: "Tell us what kind of driving you need to do in Worksop and we will help you find a compact car that feels easy, practical and well matched to the trip.",
-  serviceAreasKicker: "Around Worksop",
-  serviceAreasTitle: "Vehicle hire around Worksop",
-  serviceAreasDescription: "We cover Worksop and surrounding areas with compact car hire for everyday travel, while also offering larger vehicles when the job or journey calls for them.",
-  localRelevanceKicker: "Driving around Worksop",
-  localRelevanceTitle: "Why compact car hire makes sense in Worksop",
-  localRelevanceDescription: "Worksop is well suited to compact car hire because so much local driving is about convenience. You may be heading into town, linking up with nearby routes, calling on customers, or travelling between home, work and appointments. In all of those cases, a smaller car keeps things straightforward and avoids the bulk of a larger vehicle when you do not need it.\n\nIt is also a place where one booking often has to cover different kinds of travel. You might need something easy for local roads during the day, but still comfortable for a longer run later on. Compact cars handle that blend well, which is why they remain a practical option for many Worksop drivers.",
-  localRelevanceBlocks: [
-    { title: "A good fit for Worksop roads", body: "Worksop suits compact car hire because many journeys combine town-centre access with short hops onto larger roads. If you are moving between local shops, residential areas and workplaces, a smaller vehicle is easier to park and less awkward on tighter streets.\n\nThe town also benefits from strong road links, especially via the A6 and nearby M61 corridor. That makes a compact car a sensible all-rounder: small enough for everyday use in Worksop, but still comfortable when your trip stretches farther across Lancashire." },
-    { title: "Town-centre access and station travel", body: "For rail users, compact car hire in Worksop is useful when your journey starts or ends around Worksop station and nearby central streets. Picking up passengers, dealing with luggage or making quick onward connections tends to feel simpler in a smaller car that can slot into ordinary parking spaces without fuss.\n\nThe same applies to routine errands. Whether you are visiting local retail areas, heading to appointments or travelling across town several times in one day, a compact hatchback keeps things manageable and efficient rather than oversized for the job." },
-    { title: "Flexible travel from Worksop", body: "Worksop also works as a base for outward travel, so it helps to choose a vehicle that can handle more than one purpose. A compact car gives you enough comfort for regional driving while still being practical once you are back in town. That balance makes it popular for mixed-use bookings rather than one single journey type.\n\nIf your plans develop and you need extra room for luggage, passengers or equipment, the wider fleet gives you more options without needing to look elsewhere. We can help with larger cars, and when required, vans, minibuses and trucks too." },
-  ],
-  bottomCtaTitle: "Book the right hire car for Worksop",
-  bottomCtaDescription: "For compact car hire in Worksop, get in touch with our team and we will help you choose a vehicle that fits the journey.",
-  faqKicker: "Worksop hire questions",
-  faqTitle: "Compact car hire FAQs for Worksop",
-  faqs: [
-    { question: "Do you offer compact car hire in Worksop?", answer: "Yes, we provide compact car hire in Worksop for local driving, day-to-day use, station runs and longer regional journeys." },
-    { question: "Is a compact car suitable for driving around Worksop?", answer: "A compact car is often a strong choice in Worksop because it is easy to drive through town, practical for parking and comfortable on routes linking into surrounding roads." },
-    { question: "Can I book an automatic hire car in Worksop?", answer: "Yes, if you prefer not to drive manual, automatic compact options are available for Worksop bookings." },
-    { question: "What kind of trips does compact car hire in Worksop suit?", answer: "Compact car hire in Worksop is useful for commuting, family visits, shopping trips, business travel and onward journeys into the wider area." },
-    { question: "Do you have larger vehicles available from Worksop?", answer: "If you need more room than a compact car offers in Worksop, we can also help with larger cars as well as vans, minibuses and trucks." },
-    { question: "How do I choose the right hire vehicle in Worksop?", answer: "The best way is to speak with us about your route, passenger needs and luggage so we can help match the right vehicle for Worksop travel." },
-  ],
-}
+That matters when the day includes several short stops rather than one long uninterrupted drive. A smaller car takes the pressure out of repeated parking and route changes.`,
+        },
+        {
+          title: "Useful around the station, shopping stops and appointments",
+          body: `Compact cars work particularly well for station access, business visits and day-to-day appointments around Chesterfield. They are easier to slot into ordinary car parks and less awkward in busier local traffic than something larger.
 
-const location6Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Matlock | Small Car Rental Options", description: "Compact car hire in Matlock for local trips, business travel and onward journeys. Practical self-drive vehicles with wider fleet options available." },
-  heroImage: "/images/nearby_location_image_1.jpeg",
-  heroAlt: "Compact hire car on a local access road in Matlock",
-  heroTitle: "Compact Car Hire in Matlock",
-  heroDescription: "Compact car hire in Matlock for local travel, work use, shopping trips and onward journeys. Practical vehicles that suit everyday driving without unnecessary size.",
-  heroSecondaryActionLabel: "See compact car choices",
-  mainServiceKicker: "Compact cars in Matlock",
-  mainServiceTitle: "Straightforward compact car hire in Matlock",
-  mainServiceDescription: "If you need compact car hire in Matlock, we offer practical vehicles that make local trips simpler. Small cars are well suited to everyday driving around residential areas, retail parks and business routes where easy parking and smooth manoeuvring matter. Whether you are heading to meetings, sorting family travel, covering a temporary vehicle gap or planning a longer run beyond town, a compact hire car gives you useful flexibility without taking up more space than you need.\n\nOur compact range covers straightforward town driving as well as comfortable travel for motorway connections. That means you can choose a city-friendly option for short local errands or a larger hatchback for regular runs in and out of Matlock. We also offer vans, minibuses and trucks if your plans change and you need more carrying space or passenger room.",
-  mainVehicles: [
-    { body: "A neat choice for short trips around Matlock, with easy handling for local roads, shopping runs and everyday travel.", alt: "Fiat 500 compact hire car for Matlock local driving" },
-    { body: "An automatic compact car that keeps town driving simple, especially useful for stop start traffic and quick local errands.", alt: "Hyundai i10 automatic compact hire car in Matlock" },
-    { body: "A solid all rounder for Matlock drivers who want compact size with extra comfort for commuting and regional journeys.", alt: "VW Golf compact hatchback hire car in Matlock" },
-    { body: "A practical automatic for longer drives from Matlock, giving you relaxed road manners and useful cabin space.", alt: "Ford Focus automatic hire car for Matlock journeys" },
-  ],
-  whyChooseKicker: "Why Matlock drivers choose us",
-  whyChooseTitle: "A practical option for Matlock car hire",
-  whyChooseDescription: "Matlock journeys can vary quickly between local roads, retail access routes and motorway links, so it helps to hire a car that feels easy to live with. We keep the offer practical, with compact vehicles that are simple to drive, sensible for everyday plans and backed by a wider self-drive fleet when you need something larger.",
-  whyChooseItems: [
-    { title: "Useful for town driving", body: "A compact car is easier to place in busier parts of Matlock, especially when your day includes several short stops." },
-    { title: "Choice that fits the trip", body: "Our range includes smaller options for local use and larger hatchbacks when you want extra room for regular journeys from Matlock." },
-    { title: "Simple self-drive process", body: "We keep the process clear so you can get moving without unnecessary delays or guesswork." },
-    { title: "Good for daily schedules", body: "Compact cars are a practical match for station drop offs, work appointments and planned travel around Matlock." },
-    { title: "Wider fleet available", body: "If you later need extra carrying capacity, we can also help with vans, minibuses and trucks." },
-    { title: "Practical service", body: "We focus on sensible vehicle hire for real journeys rather than overcomplicated packages." },
-  ],
-  additionalServicesKicker: "More vehicle hire in Matlock",
-  additionalServicesTitle: "Additional vehicle hire options for Matlock",
-  additionalServicesDescription: "Compact cars are often the right match for Matlock, but not every journey is the same. If you need more room, more comfort or a different type of vehicle, our wider fleet is available too.",
-  additionalVehicles: [
-    { body: "The Focus Estate adds flexible boot space for Matlock journeys that involve luggage, work gear or larger shopping loads.", alt: "Ford Focus Estate hire car for Matlock" },
-    { body: "The Mondeo is a comfortable step up for Matlock drivers covering longer regional miles.", alt: "Ford Mondeo hire vehicle in Matlock" },
-    { body: "The Mondeo Auto suits Matlock bookings where you want easy automatic driving and a more spacious cabin.", alt: "Ford Mondeo automatic hire car for Matlock" },
-    { body: "The Mondeo Estate is useful for Matlock travel that combines passengers with larger bags or equipment.", alt: "Ford Mondeo Estate hire car in Matlock" },
-    { body: "The RAV4 Auto offers extra versatility and a higher seating position for varied Matlock journeys.", alt: "Toyota RAV4 automatic hire vehicle for Matlock" },
-    { body: "The C Class Auto is a refined option for Matlock business travel and more comfort-focused trips.", alt: "Mercedes C Class automatic hire car in Matlock" },
-    { body: "The E Class Auto gives Matlock drivers extra room and a smooth drive for longer road use.", alt: "Mercedes E Class automatic hire car for Matlock" },
-    { body: "The Range Rover is suited to Matlock bookings where space, comfort and a more substantial vehicle are preferred.", alt: "Range Rover hire vehicle for Matlock travel" },
-  ],
-  featureCtaTitle: "Arrange compact car hire in Matlock",
-  featureCtaDescription: "Need a small, easy-to-manage vehicle in Matlock? Contact us and we will help you choose the right compact car for the way you travel.",
-  serviceAreasKicker: "Matlock coverage",
-  serviceAreasTitle: "Serving Matlock and nearby travel routes",
-  serviceAreasDescription: "We support Matlock and surrounding routes with compact car hire that works for local driving, station runs, business travel and wider self-drive needs.",
-  localRelevanceKicker: "Local driving in Matlock",
-  localRelevanceTitle: "Compact car hire that suits Matlock journeys",
-  localRelevanceDescription: "Matlock is a practical place to hire a compact car because many journeys are functional rather than flashy. Drivers often need to get between residential areas, retail destinations, work locations and connecting routes without making the trip more complicated than it needs to be. A compact vehicle does that job well, giving you simple local usability and enough comfort for longer miles.\n\nThe town's road layout also makes vehicle size worth thinking about. If your day includes repeated stops, everyday parking and quick turns onto major routes, a smaller car can be the most useful option overall. It fits the way many people travel in Matlock: flexible, efficient and easy to manage.",
-  localRelevanceBlocks: [
-    { title: "Well suited to local travel patterns", body: "Matlock is built around movement between neighbourhoods, shopping areas and major connecting roads, which is one reason compact cars work so well here. A smaller vehicle is easy to manage on routine local runs and still comfortable enough for longer journeys once you leave town.\n\nAccess to routes such as the M58 and A570 also means many trips quickly move from local roads to faster stretches. That makes compact car hire in Matlock a useful balance: practical in everyday settings, but not limited when the journey opens out." },
-    { title: "Useful for errands, work and short hops", body: "Many Matlock bookings are about convenience rather than occasion travel. You may need a car for appointments, work visits, family travel or straightforward errands, and in those cases a compact vehicle usually feels like the right fit. It is easier to park, easier to turn around and easier to use over multiple stops in one day.\n\nThat matters around busier local destinations and shopping areas where space can be tighter and journeys more stop-start than open-road driving. A small hatchback can make those ordinary tasks feel less effort than using a larger vehicle you do not really need." },
-    { title: "Ready for local use and regional links", body: "Matlock also sits in a position where outward travel is common. If your plans involve reaching business sites, connecting with nearby towns or covering regional miles, a compact car remains a sensible choice because it is comfortable enough for the road while still being manageable back on local streets.\n\nWhen the journey changes shape and you need more carrying space, the wider fleet is there to support that next step. We can help move from compact car hire in Matlock to larger cars, vans, minibuses or trucks depending on what the day actually requires." },
-  ],
-  bottomCtaTitle: "Speak to us about Matlock car hire",
-  bottomCtaDescription: "Arrange compact car hire in Matlock with a team that focuses on practical vehicles and straightforward support.",
-  faqKicker: "Matlock FAQs",
-  faqTitle: "Compact car hire questions for Matlock",
-  faqs: [
-    { question: "Do you provide compact car hire in Matlock?", answer: "Yes, we offer compact car hire in Matlock for local driving, everyday travel and wider regional journeys." },
-    { question: "Why hire a compact car in Matlock?", answer: "Compact cars work well in Matlock because they are practical for local roads, easier to park and comfortable for routine journeys." },
-    { question: "Are automatic hire cars available in Matlock?", answer: "Yes, we can help with automatic compact hire cars in Matlock if that is your preferred driving option." },
-    { question: "Is compact car hire in Matlock suitable for work use?", answer: "Yes, many drivers use compact car hire in Matlock for work visits, appointments, commuting and everyday business travel." },
-    { question: "Can I upgrade to a larger vehicle in Matlock?", answer: "If your Matlock journey needs more room than a compact car provides, we can also assist with larger cars, vans, minibuses and trucks." },
-    { question: "How do I pick the best hire car for Matlock?", answer: "Tell us how you expect to use the vehicle in Matlock and we will help point you toward the most suitable option in the fleet." },
-  ],
-}
+For customers covering replacement transport, that simplicity is often exactly what they want: a clean, manageable vehicle that does not make a normal day harder than it needs to be.`,
+        },
+        {
+          title: "Easy to step up when the plan changes",
+          body: `Sometimes a booking starts as a compact-car job but later needs more carrying room or more passenger comfort. That is one reason we keep the wider fleet in view, from estates and SUVs through to vans, minibuses and trucks.
 
-const location7Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Alfreton | Small Car Rental for City and Regional Travel", description: "Compact car hire in Alfreton for local trips, business travel and easy regional driving. Small cars plus access to vans, minibuses and trucks." },
-  heroImage: "/images/nearby_location_image_2.jpeg",
-  heroAlt: "Compact hire car on a regional access road in Alfreton",
-  heroTitle: "Compact Car Hire in Alfreton",
-  heroDescription: "Practical compact car hire in Alfreton for commuting, city-centre trips, business travel and easy regional driving. A smart choice when you want a vehicle that is simple to park and comfortable on the move.",
-  heroSecondaryActionLabel: "View vehicle options",
-  mainServiceKicker: "Alfreton compact car hire",
-  mainServiceTitle: "Small cars that suit the way Alfreton journeys actually work",
-  mainServiceDescription: "Our Alfreton compact car hire service is built around everyday usability. Whether you need something for local appointments, work travel, visiting family, university-related journeys or onward trips beyond the city, a smaller vehicle keeps things straightforward. Compact cars are easier to manoeuvre in busier areas, simpler to park and well suited to mixed driving where your route may include central streets, dual carriageways and motorway sections.\n\nAlfreton is the kind of place where that flexibility matters. One journey might involve station access, another a run across town, and the next a motorway connection heading out of the area. A compact hire car gives you practical comfort without feeling oversized for the job. If you need more space than a standard small car, we can also help with larger cars and other vehicle types through the wider fleet.",
-  mainVehicles: [
-    { body: "A compact city car that suits Ashton-in-Makerfield errands, local visits and short day to day journeys.", alt: "Fiat 500 hire car for local travel in Ashton-in-Makerfield" },
-    { body: "An easy automatic choice for Ashton-in-Makerfield drivers who want light, simple handling around town.", alt: "Hyundai i10 automatic hire car in Ashton-in-Makerfield" },
-    { body: "A versatile hatchback for Ashton-in-Makerfield trips that combine local driving with regular main road miles.", alt: "VW Golf hire car for Ashton-in-Makerfield journeys" },
-    { body: "A comfortable automatic with enough space for longer Ashton-in-Makerfield travel while staying easy to manage locally.", alt: "Ford Focus automatic hire car in Ashton-in-Makerfield" },
-  ],
-  whyChooseKicker: "Why Alfreton customers book with us",
-  whyChooseTitle: "A practical choice for compact car hire in Alfreton",
-  whyChooseDescription: "Alfreton journeys can change quickly between city traffic, retail access, station approaches and motorway travel, so the right hire vehicle needs to feel adaptable rather than awkward. We focus on straightforward compact car options that work for practical day-to-day use.\n\nCustomers in Alfreton also value having access to a broader fleet when plans shift. If a small car is right today but a van, minibus or larger vehicle is needed next time, the wider service makes that easy to arrange through one team.",
-  whyChooseItems: [
-    { title: "Town friendly vehicles", body: "Smaller cars make sense for Ashton-in-Makerfield drivers who want something simple for local roads and routine stops." },
-    { title: "Useful fleet choice", body: "Automatic and hatchback options help you match the car to the kind of driving you actually have planned in Ashton-in-Makerfield." },
-    { title: "Straightforward to arrange", body: "We focus on practical self-drive hire with clear communication and sensible vehicle guidance." },
-    { title: "Flexible for different journeys", body: "Compact cars are well suited to mixed trips that include local errands, work travel and wider road links from Ashton-in-Makerfield." },
-    { title: "Easy to scale up", body: "You can move to a larger car or another vehicle type if your plans need more carrying room or passenger space." },
-    { title: "Clear and useful service", body: "Our service is built around practical use, not overcomplicated wording or unnecessary extras." },
-  ],
-  additionalServicesKicker: "More Alfreton vehicle options",
-  additionalServicesTitle: "Wider vehicle hire choices for Alfreton journeys",
-  additionalServicesDescription: "Alongside compact car hire in Alfreton, we also offer larger cars, estates, SUVs and executive models when your journey needs more room, extra comfort or stronger motorway presence. Van, minibus and truck hire can also be arranged through the wider fleet.",
-  additionalVehicles: [
-    { body: "A handy estate for Ashton-in-Makerfield drivers who need extra boot space for cases, equipment or bulky day to day loads.", alt: "Ford Focus Estate hire car for Ashton-in-Makerfield journeys" },
-    { body: "A comfortable saloon suited to longer runs from Ashton-in-Makerfield, with a calmer feel on faster roads.", alt: "Ford Mondeo hire car in Ashton-in-Makerfield" },
-    { body: "An automatic option for Ashton-in-Makerfield journeys where easy motorway driving and a more relaxed setup matter.", alt: "Ford Mondeo automatic hire car for Ashton-in-Makerfield" },
-    { body: "Good for Ashton-in-Makerfield trips that need both passenger comfort and added load space for luggage or work items.", alt: "Ford Mondeo Estate hire car in Ashton-in-Makerfield" },
-    { body: "A higher driving position and flexible cabin make this a strong choice for mixed local and regional travel from Ashton-in-Makerfield.", alt: "Toyota RAV4 automatic hire vehicle in Ashton-in-Makerfield" },
-    { body: "A refined automatic for Ashton-in-Makerfield business use, client visits or longer personal trips where comfort counts.", alt: "Mercedes C Class automatic hire car for Ashton-in-Makerfield" },
-    { body: "A spacious executive car for Ashton-in-Makerfield travel when you want a quieter, more relaxed drive with extra room.", alt: "Mercedes E Class automatic hire car in Ashton-in-Makerfield" },
-    { body: "A roomy premium option for Ashton-in-Makerfield journeys that call for comfort, presence and flexible luggage space.", alt: "Range Rover hire vehicle for Ashton-in-Makerfield travel" },
-  ],
-  featureCtaTitle: "Check compact car availability in Alfreton",
-  featureCtaDescription: "Need a small car for Alfreton driving, station access or a straightforward motorway run? Speak to us and we will help you find a practical compact hire option.",
-  serviceAreasKicker: "Around Alfreton",
-  serviceAreasTitle: "Vehicle hire serving Alfreton and nearby routes",
-  serviceAreasDescription: "We support customers travelling in and around Alfreton, with compact car hire that fits local driving as well as onward regional routes. The wider service also covers vans, minibuses and trucks when a larger vehicle is needed.",
-  localRelevanceKicker: "Driving in Alfreton",
-  localRelevanceTitle: "Why compact car hire works well in Alfreton",
-  localRelevanceDescription: "Alfreton suits compact car hire because so many journeys mix city-centre traffic with quick access to major routes. A smaller car is useful when you are heading through busy areas near Alfreton Railway Station, moving around the ring-road sections, or fitting into tighter parking around shops, offices and residential streets. It gives you enough comfort for longer drives while staying easy to place in day-to-day traffic.\n\nThe city also works well as a base for wider travel. With the A59, A6, M6 and M55 all playing a part in local movement, a compact vehicle makes sense for customers who want a car that feels manageable in town but still settled on regional roads. That balance is often what Alfreton drivers and visitors need most.",
-  localRelevanceBlocks: [
-    { title: "Why compact cars suit Ashton-in-Makerfield", body: "Driving in Ashton-in-Makerfield often means mixing short town journeys with quick links onto faster roads, so a compact car usually makes the most sense. It gives you enough comfort for everyday travel while staying easy to place in tighter spaces near shops, residential streets and local services.\n\nIf your day includes several stops, smaller vehicles help take the pressure out of parking and turning. That matters around the town centre and on busier approach roads where a larger vehicle can feel unnecessary for routine trips." },
-    { title: "Road links and journey planning in Ashton-in-Makerfield", body: "One of the useful things about hiring in Ashton-in-Makerfield is how quickly you can connect to surrounding routes. The A58 and A49 make it easier to move between local destinations and onward journeys, so choosing the right car depends on whether you are staying close to town or heading further out.\n\nFor shorter local driving, a Fiat 500 or Hyundai i10 Auto keeps things simple. If you expect more time on main roads, a Golf or Focus Auto gives you extra comfort without losing the easy handling that works well in Ashton-in-Makerfield." },
-    { title: "Choosing the right hire vehicle in Ashton-in-Makerfield", body: "Ashton-in-Makerfield also works well as a starting point for practical day to day travel, whether that means visiting family, covering work appointments or replacing your own car for a short period. A compact hire vehicle keeps things flexible without making local movement feel cumbersome.\n\nWhen you know you will need more room, it helps to think ahead about passengers, luggage and the type of roads you will use most. We keep the choice straightforward, so Ashton-in-Makerfield drivers can move from a simple compact car to a larger vehicle if the journey calls for it." },
-  ],
-  bottomCtaTitle: "Book your Alfreton compact car hire",
-  bottomCtaDescription: "If you need a compact car in Alfreton for business travel, station runs, family visits or general local driving, contact the team and we will help you choose a suitable vehicle.",
-  faqKicker: "Alfreton hire FAQs",
-  faqTitle: "Common questions about compact car hire in Alfreton",
-  faqs: [
-    { question: "Can I hire a compact car for local and longer trips from Alfreton?", answer: "Yes, we can help arrange compact car hire for Alfreton journeys ranging from local errands and work appointments to longer regional travel. Let us know where you plan to drive and we can suggest a suitable option." },
-    { question: "Why choose a compact car for driving in Alfreton?", answer: "A compact car is often a good fit for Alfreton because it is easier to handle around the city centre, station approaches, retail parking and busy routes feeding onto the A59 and M6." },
-    { question: "Do you offer automatic compact cars in Alfreton?", answer: "Yes, automatic compact car availability can be checked for Alfreton bookings. If you prefer automatic driving for commuting, town traffic or motorway work, ask when you contact us." },
-    { question: "Is Alfreton compact car hire suitable for business use?", answer: "Many customers use Alfreton compact car hire for business meetings, visiting clients, station pickups, university-related travel and convenient day-to-day driving where a smaller vehicle makes access easier." },
-    { question: "Can I arrange other vehicle hire in Alfreton as well as compact cars?", answer: "Yes, we also support Alfreton customers who need vans, minibuses or trucks. If your plans change from a small car to something larger, we can talk through the wider fleet." },
-    { question: "How do I book compact car hire in Alfreton?", answer: "The quickest way to arrange Alfreton compact car hire is to call with your preferred timing, driving requirements and any route plans. We will then help match the booking to the right vehicle." },
-  ],
-}
+You can start with the right car for a simple Chesterfield trip and still have a clear route to something larger if the journey grows.`,
+        },
+      ],
+      bottomCtaTitle: "Book compact car hire in Chesterfield with practical support",
+      bottomCtaDescription: "If you need a compact car in Chesterfield for local driving, business mileage or short regional travel, get in touch and we will help you line up a suitable vehicle.",
+      faqKicker: "Common questions",
+      faqTitle: "Compact car hire FAQs for Chesterfield",
+      faqs: [
+        { question: "Why choose compact car hire in Chesterfield?", answer: "Compact cars make sense in Chesterfield because they are easier to park, easy to drive around town and still comfortable enough for A-road and M1 mileage." },
+        { question: "Can I arrange compact car hire in Chesterfield at short notice?", answer: "Yes, subject to availability. If you need a compact car quickly in Chesterfield, call us and we will talk through what is ready for the timing you need." },
+        { question: "Do you only offer small cars in Chesterfield?", answer: "No. Compact cars are the core offer on this page, but we also provide larger cars, estates, SUVs, vans, minibuses and trucks when the journey needs more room." },
+        { question: "What are compact hire cars in Chesterfield commonly used for?", answer: "Common uses include station runs, business visits, shopping trips, family travel, temporary replacement transport and short regional journeys." },
+        { question: "Are automatic compact cars available in Chesterfield?", answer: "Yes, subject to availability. If you prefer an automatic for easier local traffic or more relaxed regional driving, ask us when you book." },
+        { question: "What should I tell you when booking in Chesterfield?", answer: "The most useful details are the dates, expected route, whether you want manual or automatic driving, and whether there is any chance you will need more space than a compact hatchback." },
+      ],
+    }
 
-const location8Tokens: ContentTokenSet = {
-  metadata: { title: "Compact Car Hire Dronfield | Small Car Rental for City Travel", description: "Compact car hire in Dronfield for city journeys, business travel and easy regional driving. Small cars backed by a wider vehicle hire fleet." },
-  heroImage: "/images/nearby_location_image_1.jpeg",
-  heroAlt: "Compact hire car approaching a busy urban route in Dronfield",
-  heroTitle: "Compact Car Hire in Dronfield",
-  heroDescription: "Compact car hire in Dronfield for city driving, work travel, station access and flexible regional trips. A sensible option when you want easy handling without giving up everyday comfort.",
-  heroSecondaryActionLabel: "See available vehicles",
-  mainServiceKicker: "Dronfield compact car hire",
-  mainServiceTitle: "Smart small-car hire for Dronfield travel",
-  mainServiceDescription: "Our Dronfield compact car hire service is designed for drivers who need a vehicle that works in real city conditions. Whether you are travelling for meetings, visiting family, getting around central districts or connecting onto major regional routes, a compact car gives you the flexibility to move without feeling over-committed to a larger vehicle. It is a practical fit for stop-start traffic, tighter parking and mixed-use journeys across the city.\n\nDronfield driving can change quickly from urban streets to major roads, and that is exactly where compact cars perform well. They are easy to place in crowded areas yet comfortable enough for longer motorway sections when your plans extend beyond the city. If you need more carrying capacity or passenger room, we can also support Dronfield customers with the wider fleet.",
-  mainVehicles: [
-    { body: "A neat choice for Dronfield when you want easy parking, light steering and a compact footprint for local streets, quick errands and city-centre trips.", alt: "Fiat 500 compact hire car for Dronfield driving" },
-    { body: "The Hyundai i10 Auto suits Dronfield drivers who want straightforward automatic driving for commuting, station runs and everyday travel around the city.", alt: "Hyundai i10 automatic city car available for Dronfield hire" },
-    { body: "A practical all-rounder for Dronfield, with extra comfort and space for longer drives, business travel and weekends away without feeling oversized.", alt: "VW Golf hatchback hire car for Dronfield journeys" },
-    { body: "The Focus Auto is well suited to Dronfield traffic, giving you automatic convenience, solid motorway comfort and useful room for passengers or luggage.", alt: "Ford Focus automatic hire car in Dronfield" },
-  ],
-  whyChooseKicker: "Why Dronfield drivers choose us",
-  whyChooseTitle: "Why choose our compact car hire in Dronfield",
-  whyChooseDescription: "When you need compact car hire in Dronfield, the details matter. You want a vehicle that makes city driving simpler, collection straightforward and onward travel less of a faff. Our compact range is chosen for practical day-to-day use, whether you are staying local or heading out across Greater Dronfield.",
-  whyChooseItems: [
-    { title: "Well suited to local use", body: "Compact cars make day to day Tyldesley travel easier, particularly when you want straightforward driving and simpler parking." },
-    { title: "Practical vehicle choice", body: "Our fleet includes compact manuals, automatics and larger hatchbacks so you can choose what feels right for Tyldesley journeys." },
-    { title: "Simple to arrange", body: "We keep the booking process clear and focused on what you actually need for the trip." },
-    { title: "Flexible for mixed driving", body: "Tyldesley travel can range from short local errands to wider road use, and compact cars are a strong fit for both." },
-    { title: "Practical hire guidance", body: "Useful if you are heading into Dronfield for work, shopping, social plans or station connections and want a car that is simple to handle in busy streets." },
-    { title: "Wider vehicle options", body: "If you need something beyond a compact car in Dronfield, we can also help with vans, minibuses and trucks through the wider fleet." },
-  ],
-  additionalServicesKicker: "More Dronfield vehicle choices",
-  additionalServicesTitle: "Extra hire options beyond compact cars in Dronfield",
-  additionalServicesDescription: "As well as compact car hire in Dronfield, we can arrange larger saloons, estates, SUVs and executive vehicles for journeys that call for extra room or added comfort. The wider fleet also includes vans, minibuses and trucks for more demanding transport needs.",
-  additionalVehicles: [
-    { body: "A useful estate for Tyldesley trips that call for extra boot room without stepping up to a much larger vehicle.", alt: "Ford Focus Estate hire car for Tyldesley travel" },
-    { body: "A comfortable choice for Tyldesley drivers covering longer road miles or business travel with a more relaxed feel.", alt: "Ford Mondeo hire car in Tyldesley" },
-    { body: "An automatic saloon that suits Tyldesley journeys where smooth driving and cabin comfort matter more.", alt: "Ford Mondeo automatic hire car for Tyldesley" },
-    { body: "A practical option for Tyldesley customers who need room for luggage, equipment or larger personal loads.", alt: "Ford Mondeo Estate hire car for Tyldesley journeys" },
-    { body: "A flexible automatic with a higher seating position, useful for Tyldesley travel that mixes local roads with longer runs.", alt: "Toyota RAV4 automatic hire vehicle in Tyldesley" },
-    { body: "A refined car for Tyldesley business journeys, client visits or personal trips where comfort is the priority.", alt: "Mercedes C Class automatic hire car for Tyldesley" },
-    { body: "A roomy executive automatic for Tyldesley drivers who want extra space and a quieter drive on longer routes.", alt: "Mercedes E Class automatic hire car in Tyldesley" },
-    { body: "A spacious premium option for Tyldesley journeys with more passengers, more luggage or a preference for a higher driving position.", alt: "Range Rover hire vehicle for Tyldesley travel" },
-  ],
-  featureCtaTitle: "Check Dronfield compact car options",
-  featureCtaDescription: "Need a small car that suits Dronfield traffic, business travel and easier parking? Contact us to check compact car availability for your Dronfield journey.",
-  serviceAreasKicker: "Across Dronfield",
-  serviceAreasTitle: "Vehicle hire covering Dronfield and surrounding routes",
-  serviceAreasDescription: "We provide compact car hire for Dronfield travel, covering city-centre use, local districts and onward regional routes. If you need something larger, vans, minibuses and trucks are also available through the wider service.",
-  localRelevanceKicker: "Dronfield driving guide",
-  localRelevanceTitle: "Why compact car hire makes sense in Dronfield",
-  localRelevanceDescription: "Dronfield is one of the clearest places to see the value of a compact hire car. Journeys often involve traffic-heavy corridors, city-centre turns, controlled parking areas and quick changes between urban streets and major road links. A smaller vehicle takes the pressure out of that. It is easier to manoeuvre around the inner districts, simpler to park and well suited to drivers who want a car that feels calm rather than bulky in busier conditions.\n\nThe city also demands flexibility. One trip may keep you near Dronfield Piccadilly or Oxford Road, while the next heads out via the Mancunian Way, M60 or M62. Compact cars work well because they bridge both styles of travel. You get something practical for dense city movement but still comfortable enough for longer runs beyond Dronfield.",
-  localRelevanceBlocks: [
-    { title: "Everyday driving around Tyldesley", body: "Tyldesley is the kind of place where a compact hire car often makes daily travel easier. Many journeys are local, practical and made up of short runs between residential areas, shops and routine appointments, so having a car that feels light and manageable is a real advantage.\n\nFor that sort of driving, a small hatchback or compact automatic keeps things simple. You get the flexibility of a self-drive vehicle without the bulk of something larger than the journey really needs." },
-    { title: "Using Tyldesley for onward journeys", body: "Tyldesley also benefits from strong onward road links, especially via the A580 East Lancashire Road, which helps with travel beyond town. That makes compact hire a sensible middle ground. You can stay comfortable on a longer run while still keeping the car easy to park and handle when you return to local streets.\n\nIf your day involves mixed travel, it is worth thinking about time on faster roads as well as town access. Drivers staying mostly local may prefer the smallest options, while those using Tyldesley as a starting point for wider journeys often benefit from a Golf or Focus Auto." },
-    { title: "Matching the car to the trip in Tyldesley", body: "Because travel needs in Tyldesley can shift quickly, the right vehicle often comes down to what the day actually looks like. A simple town based plan may call for a compact city car, while a longer route with passengers or luggage may need a larger hatchback or estate.\n\nWe keep that choice practical. Tyldesley customers can hire a compact car for convenience, then step into a larger vehicle if the journey changes. That flexibility also extends across our wider fleet when a van, minibus or truck becomes the better fit." },
-  ],
-  bottomCtaTitle: "Arrange your Dronfield compact car hire",
-  bottomCtaDescription: "If you need a compact car in Dronfield for work, city travel, station pickups or a wider regional journey, get in touch and we will help you line up the right vehicle.",
-  faqKicker: "Dronfield hire FAQs",
-  faqTitle: "Helpful answers for compact car hire in Dronfield",
-  faqs: [
-    { question: "Why is a compact car a good option for driving in Dronfield?", answer: "A compact car is often ideal for Dronfield because it is easier to handle in dense traffic, city-centre parking areas, residential streets and busy approach roads while still being comfortable for longer drives." },
-    { question: "Can I book compact car hire in Dronfield for business use?", answer: "Yes, Dronfield compact car hire works well for business travel, meetings, office visits, client appointments and general professional use where you want a vehicle that is tidy, practical and easy to park." },
-    { question: "Do you have automatic compact cars available in Dronfield?", answer: "Automatic compact car availability can be checked for Dronfield bookings. If you expect heavier traffic or simply prefer automatic driving in the city, let us know when you enquire." },
-    { question: "Is compact car hire in Dronfield useful for station and city-centre travel?", answer: "Yes, many customers use Dronfield compact car hire for rail station access, city-centre stays and straightforward onward travel. A smaller car is often easier to live with around busy arrival and parking points." },
-    { question: "Can I arrange other vehicle hire in Dronfield through the same service?", answer: "Yes, alongside compact cars we can also help Dronfield customers with vans, minibuses and trucks when the journey or load calls for something larger." },
-    { question: "How do I arrange compact car hire in Dronfield?", answer: "To book compact car hire in Dronfield, call with your travel dates, preferred vehicle type and any key route details. We will help you choose a suitable option for the journey." },
-  ],
-}
+    const vanHireTokens: ContentTokenSet = {
+      metadata: {
+        title: "Van Hire Chesterfield | Practical Vans for Moves, Deliveries and Trade",
+        description: "Van hire in Chesterfield for house moves, deliveries, trade jobs and specialist transport, with compact vans, Transits, Lutons and more available.",
+      },
+      heroImage: "/images/compactcarhirechesterfield-co-uk-van-hire-main-fleet.png",
+      heroAlt: "Modern self-drive rental van ready for loading in Chesterfield",
+      heroTitle: "Van hire in Chesterfield for moves, work and collections",
+      heroDescription: "Practical van hire in Chesterfield for house moves, trade jobs, stock collections, deliveries and specialist transport when a standard car is not enough.",
+      heroSecondaryActionLabel: "View van options",
+      mainServiceKicker: "Chesterfield van fleet",
+      mainServiceTitle: "Van hire for practical jobs across Chesterfield and beyond",
+      mainServiceDescription: `Our van hire service in Chesterfield is built for customers who need a vehicle that can handle a clear job without unnecessary complexity. Some bookings are about moving furniture, stock or equipment locally, while others involve trade work, deliveries or longer regional travel using the A61, A617, A619 and M1. That means the useful choice is rarely one single van size. Instead, it helps to have a spread that covers compact carry jobs, mid-sized working vans and larger load-space options.
+
+Chesterfield also works well as a base for mixed local and regional van use. A booking might start with a collection near the town centre, continue to a residential address, then widen into a run towards Sheffield, Derby or further up the motorway network. Keeping the fleet practical lets us support that variety with vans that suit straightforward everyday jobs as well as more specialist transport needs.`,
+      mainVehicles: [
+        { body: "A compact option for smaller Chesterfield jobs where you need enclosed load space without driving something oversized.", alt: "Caddy van for compact load carrying in Chesterfield" },
+        { body: "Useful for everyday trade work, deliveries and light moving jobs around Chesterfield and nearby routes.", alt: "Ford Transit SWB van for local Chesterfield hire" },
+        { body: "A practical automatic van for Chesterfield customers who want easier driving in town traffic and on longer road sections.", alt: "VW Transporter automatic van hire in Chesterfield" },
+        { body: "A solid fit for medium loads, site equipment and move-related jobs across Chesterfield.", alt: "Ford Transit MWB van ready for practical Chesterfield jobs" },
+        { body: "A strong choice for longer items, fuller loads and larger one-vehicle jobs starting in Chesterfield.", alt: "Ford Transit LWB van for larger Chesterfield loads" },
+        { body: "Useful when extra cargo length matters more than keeping the van compact, especially for commercial or event loads.", alt: "4 metre Sprinter van available for Chesterfield hire" },
+        { body: "Ideal when the Chesterfield booking involves bulky furniture, appliances or stacked loads that need tail-lift help.", alt: "Luton box van with tail lift for moves in Chesterfield" },
+        { body: "A practical pick for open-load work, site materials and jobs where quick side access matters.", alt: "Dropside transit van for trade and site use in Chesterfield" },
+        { body: "Useful for rubble, green waste and site clearances where tipping capability saves time on the job.", alt: "3.5 tonne tipper van hire in Chesterfield" },
+        { body: "A specialist option for vehicle recovery and transport jobs that need the right platform rather than an ordinary van.", alt: "Recovery vehicle available from the Chesterfield fleet" },
+        { body: "Suitable for customers who need a flexible transport option with camper layout practicality for longer personal travel.", alt: "VW campervan available for Chesterfield self-drive hire" },
+        { body: "A specialist access vehicle for external maintenance, facilities work and higher-reach jobs around Chesterfield.", alt: "12.5 metre cherry picker vehicle hire in Chesterfield" },
+      ],
+      whyChooseKicker: "Why choose us",
+      whyChooseTitle: "A practical van-hire range for Chesterfield jobs",
+      whyChooseDescription: "We focus on vans that make sense for the work in front of you, whether that means a compact enclosed load area, a Luton for moving day or a specialist vehicle for a more specific job.",
+      whyChooseItems: [
+        { title: "Useful size spread", body: "The fleet covers everything from compact vans to larger load-space options, helping Chesterfield customers avoid booking more vehicle than they need." },
+        { title: "Good fit for mixed work", body: "Trade runs, house moves, site jobs, collections and regional deliveries all place different demands on a van, and the range is set up around that." },
+        { title: "Straightforward support", body: "We keep the conversation focused on the load, route and job type so the vehicle choice stays practical." },
+        { title: "Specialist options available", body: "When a booking needs tail-lift support, open-load access, tipping or recovery capability, the wider fleet can cover that too." },
+        { title: "Useful beyond Chesterfield", body: "The van fleet works well for local bookings and for wider runs using Chesterfield’s Derbyshire and South Yorkshire links." },
+        { title: "Flexible self-drive choice", body: "Customers can move from a simple working van to something more specialist without having to switch providers." },
+      ],
+      featureCtaTitle: "Need the right van in Chesterfield?",
+      featureCtaDescription: "Tell us the job, load type and route, and we will help you choose a van that actually suits the work.",
+      serviceAreasKicker: "Where van hire helps",
+      serviceAreasTitle: "Van hire across Chesterfield and surrounding routes",
+      serviceAreasDescription: "We support van hire in Chesterfield for home moves, site work, stock collections and regional transport across Derbyshire and South Yorkshire.",
+      localRelevanceKicker: "Van-hire guide",
+      localRelevanceTitle: "Why van hire is useful in Chesterfield",
+      localRelevanceDescription: `Van hire works well in Chesterfield because local jobs are often varied. One booking might be a household move between local addresses, another may involve trade materials, shop stock or equipment that needs to head out onto the A61 or M1 later the same day. A practical van fleet matters more than broad sales talk because the right shape and load space can save a lot of wasted time.
+
+That is especially true when the route shifts between ordinary town access and wider road mileage. A van that stays easy enough for local stops but still carries the right load comfortably is usually the most useful choice for Chesterfield customers.`,
+      localRelevanceBlocks: [
+        { title: "Useful for local moves and working jobs", body: `Chesterfield van hire often centres on practical work: moving furniture, carrying tools, shifting stock or handling site materials. Having the right van size makes those bookings much easier to manage from the start.
+
+That is why the fleet ranges from compact enclosed vans through to larger Lutons and specialist vehicles rather than trying to push one type of van at every job.` },
+        { title: "A good base for wider Derbyshire mileage", body: `Jobs starting in Chesterfield often widen quickly towards Sheffield, Derby or motorway-linked routes, so the van still needs to feel settled beyond local roads.
+
+Choosing the right working vehicle early helps avoid repeat trips and unnecessary compromises once the route opens up.` },
+        { title: "Specialist vehicles when the job needs them", body: `Some bookings are straightforward. Others need a tail lift, dropside access, tipping capability or a recovery platform.
+
+Keeping those options available means Chesterfield customers can match the vehicle to the actual task rather than trying to make the wrong van work.` },
+      ],
+      bottomCtaTitle: "Book van hire in Chesterfield with practical guidance",
+      bottomCtaDescription: "If you need a working van in Chesterfield for a move, delivery, trade run or specialist transport job, contact us and we will help you choose the right option.",
+      faqKicker: "Van-hire FAQs",
+      faqTitle: "Common questions about van hire in Chesterfield",
+      faqs: [
+        { question: "What sort of van hire do you offer in Chesterfield?", answer: "We offer a practical spread from compact vans and Transit-sized working vehicles through to Lutons, dropsides, tippers, recovery vehicles and other specialist options." },
+        { question: "Is Chesterfield van hire suitable for house moves?", answer: "Yes. Many customers hire vans in Chesterfield for furniture moves, appliance collections and one-day relocation work, particularly where larger enclosed load space or a tail lift helps." },
+        { question: "Can I hire a van in Chesterfield for trade or site work?", answer: "Yes. Trade jobs, site materials, tool transport and open-load work are all common reasons for van hire in Chesterfield." },
+        { question: "Do you have automatic vans available in Chesterfield?", answer: "Yes, subject to availability. If you prefer automatic driving for local traffic or longer van mileage, ask when booking." },
+        { question: "Can you help if I need something more specialist than a standard van?", answer: "Yes. The wider fleet includes vehicles such as tail-lift Lutons, dropsides, tippers, recovery vehicles and other specialist transport options." },
+        { question: "How do I choose the right van for a Chesterfield booking?", answer: "The most useful details are the load type, approximate size, route and whether the job needs enclosed space, open access, tipping capability or tail-lift support." },
+      ],
+    }
+
+    const minibusHireTokens: ContentTokenSet = {
+      metadata: {
+        title: "Minibus Hire Chesterfield | 7 to 17 Seater Self-Drive Options",
+        description: "Minibus hire in Chesterfield for family trips, airport runs, group events and team travel, with 7, 9, 12, 15 and 17 seater options available.",
+      },
+      heroImage: "/images/compactcarhirechesterfield-co-uk-minibus-hire-main-fleet.png",
+      heroAlt: "Self-drive minibus ready for passenger travel in Chesterfield",
+      heroTitle: "Minibus hire in Chesterfield for group travel that stays practical",
+      heroDescription: "Self-drive minibus hire in Chesterfield for family travel, team transport, airport runs, event journeys and larger passenger groups that need more room than a standard car can offer.",
+      heroSecondaryActionLabel: "View minibus options",
+      mainServiceKicker: "Chesterfield minibus fleet",
+      mainServiceTitle: "Practical minibus hire for family, event and team travel",
+      mainServiceDescription: `Minibus hire in Chesterfield is most useful when everyone needs to travel together without splitting the group across several cars. Some bookings are for family outings, airport runs or wedding transport. Others are for sports teams, work groups, school-related travel or day trips that need more passenger space without stepping into coach territory.
+
+That means the key thing is having a sensible spread of sizes. Smaller 7-seaters work well when you only need a little more room than a standard car, while 9, 12, 15 and 17 seater options help when the booking genuinely needs group capacity. Chesterfield also sits in a useful position for wider travel across Derbyshire, South Yorkshire and the motorway network, so the minibus needs to stay practical once the day goes beyond local roads.`,
+      mainVehicles: [
+        { body: "A flexible smaller MPV for Chesterfield bookings that need extra seats without moving all the way into a full minibus.", alt: "Vauxhall Zafira 5 plus 2 seat vehicle for Chesterfield hire" },
+        { body: "Useful when a Chesterfield group needs seven seats with a familiar car-like drive for family or airport travel.", alt: "Ford Galaxy 7 seater manual available for Chesterfield hire" },
+        { body: "A practical automatic people carrier for Chesterfield journeys where easier driving and seven-seat space both matter.", alt: "Ford Galaxy 7 seater automatic in the Chesterfield fleet" },
+        { body: "A solid option for nine-passenger travel when the booking needs extra capacity for events, teams or family groups.", alt: "9 seater manual minibus available in Chesterfield" },
+        { body: "Useful when a larger group wants the easier traffic handling of an automatic setup on a Chesterfield booking.", alt: "9 seater automatic minibus for Chesterfield group travel" },
+        { body: "A practical 12-seater for bigger family, school-related or organisation travel starting in Chesterfield.", alt: "12 seater minibus available for hire in Chesterfield" },
+        { body: "Helps when the Chesterfield trip needs a little more capacity for group outings, events or work transport.", alt: "15 seater minibus for group journeys from Chesterfield" },
+        { body: "A larger group option that keeps the booking practical when you need near-coach capacity without stepping outside self-drive.", alt: "17 seater lite minibus available in Chesterfield" },
+        { body: "A full 17-seater choice for Chesterfield customers who need the widest passenger capacity in the fleet.", alt: "17 seater self-drive minibus for larger Chesterfield groups" },
+      ],
+      whyChooseKicker: "Why choose us",
+      whyChooseTitle: "A practical minibus range for Chesterfield group travel",
+      whyChooseDescription: "We keep Chesterfield minibus hire focused on useful passenger space, clear vehicle choice and the kind of routes groups actually need to cover, from local pickups to wider regional mileage.",
+      whyChooseItems: [
+        { title: "Wide passenger spread", body: "From smaller 7-seaters to larger 17-seat options, the range covers different kinds of group travel without forcing one size onto every booking." },
+        { title: "Useful for mixed journey types", body: "Airport runs, day trips, event travel, family outings and team transport all place different demands on a minibus, and the fleet is shaped around that." },
+        { title: "Straightforward support", body: "We keep the process focused on passenger numbers, luggage space and the route rather than vague sales language." },
+        { title: "Good for local and wider mileage", body: "Chesterfield minibuses need to stay practical both around town and on longer Derbyshire, South Yorkshire or motorway-based travel." },
+        { title: "Manual and automatic options", body: "Where suitable vehicles are available, we can support customers who prefer automatic driving for larger group transport." },
+        { title: "A wider fleet when plans change", body: "If the group journey changes into a different kind of transport need, the wider fleet is also available." },
+      ],
+      featureCtaTitle: "Need the right minibus in Chesterfield?",
+      featureCtaDescription: "Tell us the passenger count, luggage needs and route, and we will help you line up a practical minibus for the trip.",
+      serviceAreasKicker: "Where minibus hire helps",
+      serviceAreasTitle: "Minibus hire across Chesterfield and surrounding routes",
+      serviceAreasDescription: "We support minibus hire in Chesterfield for airport travel, group outings, team transport and wider journeys across Derbyshire and South Yorkshire.",
+      localRelevanceKicker: "Minibus-hire guide",
+      localRelevanceTitle: "Why minibus hire is useful in Chesterfield",
+      localRelevanceDescription: `Minibus hire works well in Chesterfield because group journeys often involve a mix of local pickup points and wider regional travel. Families may need to collect relatives from different parts of town before heading to an airport. Teams may need to travel together to an event. Work groups may need one practical vehicle instead of a loose convoy of cars.
+
+The right minibus keeps the whole plan more organised. It also makes luggage, timing and route planning easier because the group is moving together. That is especially helpful once the journey opens out beyond Chesterfield towards Sheffield, Derby, the Peak District or the motorway network.`,
+      localRelevanceBlocks: [
+        { title: "Useful when the whole group needs to stay together", body: `Many Chesterfield minibus bookings are simply about making a day run more manageable. One vehicle for the whole group is often easier than splitting people across several cars.
+
+That matters for timing, luggage and straightforward coordination, especially if the route includes pickups before the main journey begins.` },
+        { title: "Good for airport runs, day trips and event travel", body: `Chesterfield sits well for wider travel, so group bookings often move quickly beyond local roads. A practical minibus helps keep those longer runs organised without losing the local convenience of a self-drive booking.
+
+It is particularly useful when the passenger group and their bags need to move together from start to finish.` },
+        { title: "A clear choice of size matters", body: `The most useful minibus is the one that matches the actual group. Too small and the trip becomes cramped; too large and the vehicle feels unnecessary.
+
+Keeping several seat-count options available makes it easier to choose something that fits the plan properly.` },
+      ],
+      bottomCtaTitle: "Book minibus hire in Chesterfield with practical support",
+      bottomCtaDescription: "If you need a minibus in Chesterfield for family, event, airport or team travel, contact us and we will help you choose the right size for the journey.",
+      faqKicker: "Minibus-hire FAQs",
+      faqTitle: "Common questions about minibus hire in Chesterfield",
+      faqs: [
+        { question: "What sizes of minibus hire do you offer in Chesterfield?", answer: "We offer a practical spread including 7-seater, 9-seater, 12-seater, 15-seater and 17-seater options so the booking can fit the actual group size." },
+        { question: "Is Chesterfield minibus hire suitable for airport runs?", answer: "Yes. Many customers hire minibuses in Chesterfield for airport transfers where passengers and luggage need to travel together rather than across multiple cars." },
+        { question: "Can I hire a minibus in Chesterfield for family or event travel?", answer: "Yes. Family outings, weddings, celebrations and group day trips are all common reasons for minibus hire in Chesterfield." },
+        { question: "Do you have automatic minibus options in Chesterfield?", answer: "Yes, subject to availability. If automatic driving is preferred for a larger passenger vehicle, ask when you book." },
+        { question: "How do I choose the right minibus size?", answer: "The most useful details are the passenger count, expected luggage, route and whether the trip includes local pickups before the wider journey starts." },
+        { question: "Can you help if the trip later needs a different vehicle type?", answer: "Yes. If the journey changes, the wider self-drive fleet includes other vehicle types that may suit the new plan better." },
+      ],
+    }
+
+    const truckHireTokens: ContentTokenSet = {
+      metadata: {
+        title: "Truck Hire Chesterfield | Box, Curtain, Tipper and Sleeper Trucks",
+        description: "Truck hire in Chesterfield for commercial loads, removals, site work and specialist transport, with box, curtain-side, dropside and sleeper trucks available.",
+      },
+      heroImage: "/images/compactcarhirechesterfield-co-uk-truck-hire-main-fleet.png",
+      heroAlt: "Self-drive truck ready for practical haulage work in Chesterfield",
+      heroTitle: "Truck hire in Chesterfield for larger loads and working jobs",
+      heroDescription: "Truck hire in Chesterfield for commercial transport, removals, site work, heavier loads and specialist jobs that need more capacity than a van can provide.",
+      heroSecondaryActionLabel: "View truck options",
+      mainServiceKicker: "Chesterfield truck fleet",
+      mainServiceTitle: "Self-drive trucks for heavier work across Chesterfield and beyond",
+      mainServiceDescription: `Truck hire in Chesterfield is about matching the vehicle to the job rather than treating every load the same. Some customers need a practical box body for removals or larger deliveries. Others need dropside or tipper access for site work, curtain-side space for commercial movement or sleeper-equipped vehicles for longer haulage patterns. The useful thing is having the right format available without making the booking more complicated than it needs to be.
+
+Chesterfield is also well placed for work that moves beyond local roads. Jobs can start in town, pass through industrial estates or residential loading points, then widen out across Derbyshire, South Yorkshire and the motorway network. That makes a practical self-drive truck fleet valuable when the job needs more carrying capacity, better access or a more specialist working vehicle than a standard van can provide.`,
+      mainVehicles: [
+        { body: "A practical box-body option for Chesterfield jobs that need enclosed load space and tail-lift help without stepping into larger truck classes.", alt: "Ford Luton tail lift truck for Chesterfield carrying jobs" },
+        { body: "Useful for site clearances, rubble, green waste and aggregate-style loads where tipping capability saves time.", alt: "3.5 tonne tipper truck available in Chesterfield" },
+        { body: "A specialist option when the Chesterfield booking involves vehicle recovery or transport rather than ordinary freight.", alt: "3.5 tonne recovery truck for specialist hire in Chesterfield" },
+        { body: "A strong fit for larger enclosed loads that need more capacity than a Luton but still benefit from tail-lift support.", alt: "7.5 tonne box truck with tail lift for Chesterfield work" },
+        { body: "Useful for commercial loads that need side access and practical loading flexibility rather than a fixed box body.", alt: "7.5 tonne curtain-side truck for Chesterfield transport jobs" },
+        { body: "Helps when the job needs open-load access for building materials, machinery or awkward site items.", alt: "7.5 tonne dropside truck available in Chesterfield" },
+        { body: "A practical tipper choice for heavier site work and bulk materials where quick unloading matters.", alt: "7.5 tonne tipper truck for Chesterfield construction and clearance jobs" },
+        { body: "Useful when the route combines heavier carrying needs with sleeper and tail-lift practicality for longer working days.", alt: "7.5 tonne sleeper tail-lift truck available from the Chesterfield fleet" },
+        { body: "A larger enclosed option for substantial commercial loads that outgrow lighter truck classes.", alt: "18 tonne box truck ready for hire in Chesterfield" },
+        { body: "Helps with larger side-loaded freight where curtain access makes the load easier to handle efficiently.", alt: "18 tonne curtain-side truck in the Chesterfield fleet" },
+        { body: "A high-capacity curtain-side option for larger commercial movements and more demanding freight patterns.", alt: "26 tonne curtain-side truck available in Chesterfield" },
+        { body: "A specialist long-haul style option for larger commercial transport requirements that need serious capacity and sleeper support.", alt: "44 tonne sleeper truck for larger Chesterfield haulage jobs" },
+      ],
+      whyChooseKicker: "Why choose us",
+      whyChooseTitle: "A practical truck range for Chesterfield working jobs",
+      whyChooseDescription: "We focus on useful truck types, clear booking support and the kind of carrying jobs customers actually need to handle across Chesterfield and the wider region.",
+      whyChooseItems: [
+        { title: "Useful truck formats", body: "From box bodies and curtain-siders to dropsides, tippers and sleeper-equipped vehicles, the range covers different kinds of work rather than pretending one truck fits every load." },
+        { title: "Good for mixed working routes", body: "Local loading points, industrial estates, site access and wider motorway mileage all place different demands on a truck, and the fleet is shaped around that." },
+        { title: "Straightforward support", body: "We keep the booking conversation focused on the load, access needs and route so the truck choice stays practical." },
+        { title: "Tail-lift and open-load options", body: "Where the job needs easier unloading or open access, the range includes the right body styles rather than forcing a compromise." },
+        { title: "Useful beyond Chesterfield", body: "The truck fleet works for local Chesterfield jobs and for wider Derbyshire, South Yorkshire and motorway-linked work." },
+        { title: "Specialist vehicles available", body: "Recovery and sleeper-equipped vehicles help cover jobs that go beyond straightforward box or curtain-side carrying." },
+      ],
+      featureCtaTitle: "Need the right truck in Chesterfield?",
+      featureCtaDescription: "Tell us the load, access needs and route, and we will help you choose a truck that matches the work properly.",
+      serviceAreasKicker: "Where truck hire helps",
+      serviceAreasTitle: "Truck hire across Chesterfield and surrounding routes",
+      serviceAreasDescription: "We support truck hire in Chesterfield for removals, freight, site work, heavier loads and specialist transport across Derbyshire and South Yorkshire.",
+      localRelevanceKicker: "Truck-hire guide",
+      localRelevanceTitle: "Why truck hire is useful in Chesterfield",
+      localRelevanceDescription: `Truck hire works well in Chesterfield because heavier jobs often move between very different conditions in one booking. A route may start with ordinary local loading access, shift through industrial or commercial areas, then head out onto larger regional links or the motorway network. That means the body style, carrying capacity and unloading setup all matter.
+
+Having the right truck saves time, protects the load and makes the job easier to complete in one vehicle. For Chesterfield customers, that can mean anything from a tail-lift box body for removals to a tipper for site work or a curtain-side for larger commercial movement.`,
+      localRelevanceBlocks: [
+        { title: "Useful when a van is no longer enough", body: `Some Chesterfield jobs simply outgrow van space or van payload. Once the load becomes bulkier, heavier or harder to handle efficiently, moving into the right truck makes the whole job more workable.
+
+That can apply to removals, site work, trade transport and larger commercial loads alike.` },
+        { title: "The right body style matters", body: `Truck hire is not just about size. Tail-lift support, curtain access, dropside practicality or tipping capability can all change how easy the job is to load, move and unload.
+
+Choosing the right setup from the start helps avoid awkward compromises on the day.` },
+        { title: "A good fit for wider working mileage", body: `Chesterfield routes often widen beyond local streets into larger Derbyshire, South Yorkshire and motorway-linked travel. The truck still needs to remain practical once the job opens out.
+
+That is why the fleet includes options designed for different carrying patterns rather than a one-format approach.` },
+      ],
+      bottomCtaTitle: "Book truck hire in Chesterfield with practical guidance",
+      bottomCtaDescription: "If you need a truck in Chesterfield for removals, site work, commercial carrying or specialist transport, contact us and we will help you choose the right vehicle.",
+      faqKicker: "Truck-hire FAQs",
+      faqTitle: "Common questions about truck hire in Chesterfield",
+      faqs: [
+        { question: "What sort of truck hire do you offer in Chesterfield?", answer: "We offer a practical range including box trucks, curtain-siders, dropsides, tippers, tail-lift vehicles, recovery trucks and sleeper-equipped trucks." },
+        { question: "Is Chesterfield truck hire suitable for removals and larger deliveries?", answer: "Yes. Box trucks and tail-lift options are often a strong fit for removals, bulky deliveries and larger enclosed loads." },
+        { question: "Can I hire a truck in Chesterfield for site or trade work?", answer: "Yes. Dropsides, tippers and other working truck formats are useful for site materials, clearance jobs and practical trade transport." },
+        { question: "Do you have specialist truck options in Chesterfield?", answer: "Yes. The wider range includes specialist options such as recovery trucks and sleeper-equipped vehicles where the job calls for them." },
+        { question: "How do I choose the right truck for a Chesterfield booking?", answer: "The most useful details are the load type, whether it needs enclosed or open access, whether tail-lift or tipping help is useful, and how much wider road mileage the job includes." },
+        { question: "Can you help if I am not sure whether I need a van or a truck?", answer: "Yes. If you tell us the load, access points and route, we can help you decide whether a van still makes sense or whether moving into a truck is the better option." },
+      ],
+    }
+
+        const location1Tokens = createNearbyLocationTokens({
+          location: "Sheffield",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-a.png",
+          heroAlt: "Compact hire car ready for city travel around Sheffield",
+          metadataDescription: "Compact car hire in Sheffield for city driving, station access and practical regional travel from the south side of South Yorkshire.",
+          heroDescription: "Compact car hire in Sheffield for everyday city mileage, station travel, business appointments and regional routes where a smaller car keeps things easier.",
+          serviceDescription: `Compact car hire in Sheffield works well when the booking mixes heavier urban traffic with the need to stay practical on bigger routes. A smaller hatchback is easier around city-centre parking, tighter approach roads and repeated stops, but it still gives enough comfort once the journey widens towards Sheffield Parkway, the A57 or the M1.
+
+That makes compact cars a sensible option for business visits, station collections, family travel and replacement transport in Sheffield. The focus stays on useful self-drive cars that feel manageable in the city without becoming limiting once the route stretches further out.`,
+          whyChooseDescription: "We keep Sheffield compact car hire practical for city-centre use first, while making sure the vehicle still suits wider road mileage when the day opens up.",
+          serviceAreasDescription: "We support compact car hire in Sheffield and nearby routes, including city-centre travel, station access and onward journeys towards the Parkway, M1 and surrounding South Yorkshire links.",
+          localRelevanceDescription: `Sheffield rewards compact car hire because city driving here often means repeated stops, mixed parking conditions and quick changes between busy urban roads and wider regional links. A smaller car feels easier to place around the centre, Meadowhall-side travel or ordinary residential roads, while still remaining useful once the booking heads onto Sheffield Parkway or towards the M1.
+
+That balance matters on trips that combine work, shopping, station access and wider South Yorkshire mileage in a single day. Compact hatchbacks stay practical in both halves of that journey.`,
+          localBlocks: [
+            { title: "Useful for city-centre parking and repeated stops", body: `Sheffield journeys often involve ordinary city-centre parking, station access and short urban hops between appointments. A compact car keeps those movements easier and less awkward than something larger.
+
+That simplicity matters when the day involves several stops rather than one single destination.` },
+            { title: "A good fit once the route widens", body: `A Sheffield booking does not always stay in the city. Routes can quickly widen towards Sheffield Parkway, the A57 and the M1, so the car still needs to stay comfortable once the local section is done.
+
+A compact hatchback gives you that middle ground without overcommitting to a bigger vehicle.` },
+            { title: "Practical for work and personal travel alike", body: `Compact car hire in Sheffield suits business visits, replacement transport, family trips and ordinary day-to-day use because the vehicle remains easy to live with throughout the booking.
+
+If the trip later needs more room, the wider fleet is still there to support it.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Sheffield?", answer: "Compact cars are a practical fit in Sheffield because they stay easy in city traffic and parking while still remaining comfortable enough for Parkway and M1 mileage." },
+            { question: "Is compact car hire in Sheffield useful for station access?", answer: "Yes. Compact cars work well for Sheffield station travel and onward city movement because they are simpler to manoeuvre and park around busier areas." },
+            { question: "Do you offer automatic compact cars in Sheffield?", answer: "Yes, subject to availability. If you prefer automatic driving for Sheffield traffic or wider South Yorkshire travel, ask when booking." },
+            { question: "Can I use a compact hire car for business travel in Sheffield?", answer: "Yes. Compact cars are commonly used for meetings, office visits, client travel and practical day-to-day professional mileage in Sheffield." },
+            { question: "Can Sheffield compact car hire also suit longer trips?", answer: "Yes. Compact hatchbacks remain useful for mixed urban and regional driving when you do not need a larger vehicle." },
+            { question: "What if I need more space later?", answer: "If the Sheffield booking later needs more room, the wider fleet includes larger cars, vans, minibuses and trucks." },
+          ],
+        })
+
+        const location2Tokens = createNearbyLocationTokens({
+          location: "Mansfield",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-b.png",
+          heroAlt: "Compact hire car prepared for practical travel around Mansfield",
+          metadataDescription: "Compact car hire in Mansfield for everyday town driving, retail stops and useful regional mileage between Nottinghamshire and Derbyshire.",
+          heroDescription: "Compact car hire in Mansfield for local trips, business mileage, retail runs and practical regional driving where a smaller hatchback keeps things straightforward.",
+          serviceDescription: `Compact car hire in Mansfield makes sense when the booking needs something easy for ordinary town use but still capable once the route broadens towards the A60, A617 or M1-connected travel. A smaller hatchback is helpful for local errands, parking and repeated short stops, while still offering enough comfort for wider mileage beyond town.
+
+That practicality suits a lot of Mansfield journeys, from replacement transport and business visits through to family travel and short regional runs. You get a self-drive car that stays manageable without feeling under-equipped for the broader route.`,
+          whyChooseDescription: "We keep Mansfield compact car hire focused on straightforward everyday use while still making sure the vehicle works once the route extends beyond local roads.",
+          serviceAreasDescription: "We support compact car hire in Mansfield and nearby Nottinghamshire and Derbyshire routes, including town-centre travel, retail stops and wider regional mileage.",
+          localRelevanceDescription: `Mansfield is a strong fit for compact car hire because so many bookings combine practical local driving with quick access to wider roads. A smaller car makes everyday parking and short town-centre stops easier, but it also remains useful once the route opens onto the A60, A617 or M1-connected travel.
+
+That balance is useful for customers who need a normal, manageable self-drive car for shopping trips, appointments, family visits and mixed regional mileage without stepping up to something larger than the trip really needs.`,
+          localBlocks: [
+            { title: "A practical fit for everyday Mansfield travel", body: `Compact cars are useful in Mansfield because they keep local manoeuvring, regular parking and short daily trips simple. That is often the biggest advantage for customers who just need a sensible self-drive vehicle.
+
+A smaller hatchback also feels less cumbersome on repeated town-centre stops than a larger car.` },
+            { title: "Comfortable enough once the booking widens", body: `Mansfield trips often move beyond local roads into wider Nottinghamshire and Derbyshire mileage. The car still needs to stay comfortable once the town-centre section is done.
+
+A compact hatchback gives you that balance without pushing you into unnecessary size.` },
+            { title: "Useful for business and replacement transport", body: `Many Mansfield bookings are about keeping a normal routine moving while your own car is unavailable or when a simple work-trip vehicle is needed.
+
+Compact hire stays practical in those situations because it is easy to live with throughout the day.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Mansfield?", answer: "Compact cars work well in Mansfield because they are easy for everyday local driving and parking while still staying comfortable for wider Nottinghamshire and Derbyshire mileage." },
+            { question: "Is compact car hire in Mansfield useful for shopping and town travel?", answer: "Yes. Compact cars are well suited to the short town-centre trips, errands and ordinary parking that make up many Mansfield journeys." },
+            { question: "Do you offer automatic compact cars in Mansfield?", answer: "Yes, subject to availability. If you prefer automatic driving for Mansfield traffic or wider local mileage, ask when booking." },
+            { question: "Can I use a compact hire car for business travel in Mansfield?", answer: "Yes. Compact cars are commonly used for practical meetings, visits and day-to-day professional mileage in and around Mansfield." },
+            { question: "Can Mansfield compact car hire also suit longer trips?", answer: "Yes. Compact hatchbacks remain useful for mixed local and regional driving when you do not need a larger vehicle." },
+            { question: "What if I later need more space?", answer: "If the Mansfield booking later needs more room, the wider fleet includes larger cars, vans, minibuses and trucks." },
+          ],
+        })
+
+        const location3Tokens = createNearbyLocationTokens({
+          location: "Rotherham",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-a.png",
+          heroAlt: "Compact hire car ready for everyday travel around Rotherham",
+          metadataDescription: "Compact car hire in Rotherham for local driving, business mileage and practical regional travel using the A630, M1 and wider South Yorkshire links.",
+          heroDescription: "Compact car hire in Rotherham for town travel, work visits, shopping trips and wider regional mileage where a smaller car keeps the day easier to manage.",
+          serviceDescription: `Compact car hire in Rotherham works well when the booking needs a car that remains easy on local roads but still useful once the route opens onto bigger South Yorkshire links. A smaller hatchback is simpler for everyday parking, retail stops and ordinary appointments, while still giving enough comfort for the A630, M1 and wider regional mileage.
+
+That practicality suits business travel, replacement transport, family visits and mixed-use journeys around Rotherham. The result is a self-drive car that stays manageable throughout the day rather than feeling larger than the trip really calls for.`,
+          whyChooseDescription: "We keep Rotherham compact car hire practical for ordinary day-to-day travel while still making sure the vehicle handles wider South Yorkshire mileage sensibly.",
+          serviceAreasDescription: "We support compact car hire in Rotherham and nearby South Yorkshire routes, including town travel, retail stops and onward journeys using the A630 and M1 links.",
+          localRelevanceDescription: `Rotherham suits compact car hire because many bookings blend ordinary local movement with quick access to bigger roads. A smaller vehicle keeps parking, retail access and town-centre travel easier, but it still remains useful once the trip expands towards the A630, M1 or nearby Sheffield-side routes.
+
+That makes compact hatchbacks a practical choice for people who want a self-drive car that works in both parts of the day without feeling excessive.`,
+          localBlocks: [
+            { title: "Useful for local stops and everyday parking", body: `Rotherham journeys often involve ordinary appointments, shopping stops and short local miles where a compact car is simply easier to manage.
+
+That matters when the booking includes repeated parking and several destinations rather than one long continuous drive.` },
+            { title: "A practical fit for wider South Yorkshire mileage", body: `Rotherham bookings can widen quickly towards the A630, M1 and nearby regional links, so the car still needs to remain comfortable beyond town.
+
+A compact hatchback handles that change well without becoming too large for the local part of the route.` },
+            { title: "Good for work, replacement use and family travel", body: `Many Rotherham customers need a practical vehicle for business visits, family travel or keeping day-to-day routines moving while their own car is unavailable.
+
+Compact hire works well there because it remains straightforward from start to finish.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Rotherham?", answer: "Compact cars are a practical option in Rotherham because they stay easy for local driving and parking while remaining comfortable enough for A630 and M1 mileage." },
+            { question: "Is compact car hire in Rotherham useful for business travel?", answer: "Yes. Compact cars are commonly used for meetings, visits and practical day-to-day professional mileage in and around Rotherham." },
+            { question: "Do you offer automatic compact cars in Rotherham?", answer: "Yes, subject to availability. If you prefer automatic driving for Rotherham traffic or wider regional routes, ask when booking." },
+            { question: "Can I use a compact car for retail and town-centre travel in Rotherham?", answer: "Yes. Compact hatchbacks are often a strong fit for shopping stops, town-centre access and repeated local parking." },
+            { question: "Can Rotherham compact car hire also suit longer trips?", answer: "Yes. Compact cars remain useful for mixed local and regional driving when you do not need more carrying space." },
+            { question: "What if I later need more room?", answer: "If the Rotherham booking later needs more room, the wider fleet includes larger cars, vans, minibuses and trucks." },
+          ],
+        })
+
+        const location4Tokens = createNearbyLocationTokens({
+          location: "Derby",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-b.png",
+          heroAlt: "Compact hire car prepared for practical city travel in Derby",
+          metadataDescription: "Compact car hire in Derby for city driving, station access and practical regional mileage using the A52, A38 and wider East Midlands links.",
+          heroDescription: "Compact car hire in Derby for everyday city travel, business appointments, station journeys and regional mileage where a smaller car keeps things easy.",
+          serviceDescription: `Compact car hire in Derby works well when the journey needs something easy enough for city-centre roads and ordinary parking, yet still comfortable once the route widens onto the A52, A38 or other East Midlands links. A smaller hatchback helps with repeated stops, station access and local appointments while still being practical for wider mileage afterwards.
+
+That balance suits a lot of Derby travel, including business use, replacement transport, family visits and mixed local-regional bookings. You get a self-drive car that feels sensible in the city without becoming limited when the day stretches further out.`,
+          whyChooseDescription: "We keep Derby compact car hire practical for city use first, while making sure the vehicle also works well for wider East Midlands mileage.",
+          serviceAreasDescription: "We support compact car hire in Derby and nearby East Midlands routes, including city-centre driving, station access and onward travel using the A52 and A38.",
+          localRelevanceDescription: `Derby rewards compact car hire because many local bookings involve city-centre traffic, ordinary parking and mixed routes that quickly widen beyond town. A smaller vehicle feels easier around the centre, Pride Park-side travel or routine local stops, but it still remains comfortable enough once the route opens onto the A52, A38 or surrounding regional roads.
+
+That combination is useful for work visits, station travel, family movement and short regional bookings where a normal, manageable hatchback is the best fit.`,
+          localBlocks: [
+            { title: "Useful around the city, station and local stops", body: `Compact cars make a lot of sense in Derby because city-centre travel, station access and everyday parking are all easier with a smaller vehicle.
+
+That helps when the route includes several short stops and routine urban manoeuvring.` },
+            { title: "Comfortable once the trip widens onto major roads", body: `Derby journeys often move quickly onto the A52, A38 and wider East Midlands routes, so the car still needs to stay practical beyond the city section.
+
+A compact hatchback gives you that balance without pushing you into unnecessary size.` },
+            { title: "A practical fit for mixed day-to-day use", body: `Business mileage, replacement transport and family travel all benefit from a car that is easy to live with throughout the booking.
+
+Compact hire in Derby stays useful in those situations because it keeps the journey straightforward from start to finish.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Derby?", answer: "Compact cars are a practical fit in Derby because they stay easy in city traffic and parking while still being comfortable enough for A52 and A38 mileage." },
+            { question: "Is compact car hire in Derby useful for station access?", answer: "Yes. Compact cars work well for Derby station travel and onward city movement because they are simpler to manoeuvre and park around busier areas." },
+            { question: "Do you offer automatic compact cars in Derby?", answer: "Yes, subject to availability. If you prefer automatic driving for Derby traffic or wider East Midlands routes, ask when booking." },
+            { question: "Can I use a compact hire car for business travel in Derby?", answer: "Yes. Compact cars are commonly used for meetings, office visits and practical day-to-day professional mileage in Derby." },
+            { question: "Can Derby compact car hire also suit longer trips?", answer: "Yes. Compact hatchbacks remain useful for mixed city and regional driving when you do not need a larger vehicle." },
+            { question: "What if I need more space later?", answer: "If the Derby booking later needs more room, the wider fleet includes larger cars, vans, minibuses and trucks." },
+          ],
+        })
+
+        const location5Tokens = createNearbyLocationTokens({
+          location: "Worksop",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-a.png",
+          heroAlt: "Compact hire car ready for practical travel around Worksop",
+          metadataDescription: "Compact car hire in Worksop for town driving, station access and regional mileage using the A57, A60 and nearby wider routes.",
+          heroDescription: "Compact car hire in Worksop for everyday town travel, station trips, business mileage and practical regional driving where a smaller car stays easy to manage.",
+          serviceDescription: `Compact car hire in Worksop makes sense when the booking mixes local roads with wider routes beyond town. A smaller vehicle is easy to place around ordinary parking and shopping stops, while still being comfortable enough for A57 or A60 mileage and the wider regional network.
+
+That practicality suits a lot of Worksop travel, from family visits and work appointments through to replacement transport and short regional journeys. You get the convenience of a compact hatchback without giving up the comfort needed for the wider drive.`,
+          whyChooseDescription: "We keep Worksop compact car hire practical for everyday driving first, while still making sure the vehicle feels useful once the route stretches beyond town.",
+          serviceAreasDescription: "We support compact car hire in Worksop and nearby Nottinghamshire and South Yorkshire routes, including everyday town travel and wider journeys using the A57 and A60.",
+          localRelevanceDescription: `Worksop is a good match for compact car hire because many journeys here blend ordinary local driving with quick access to wider routes. A smaller vehicle is easier in routine parking and short local stops, but it still remains comfortable enough when the trip widens beyond town.
+
+That balance matters on bookings that combine shopping, station access, family visits and regional travel in one day. Compact hatchbacks stay practical in both parts of the journey.`,
+          localBlocks: [
+            { title: "A sensible fit for everyday Worksop driving", body: `Compact cars are useful in Worksop because they keep local manoeuvring, short stops and everyday parking simpler. That is often the main thing customers want from a hire car.
+
+A smaller hatchback also tends to feel less cumbersome on routine town-centre movements than a larger vehicle.` },
+            { title: "Useful once the route opens onto the A57 or A60", body: `Worksop bookings often widen beyond local roads quite quickly. The A57 and A60 both make it easy for trips to move into longer regional mileage.
+
+A compact car gives you a sensible middle ground: easy enough for town use, but still useful once the route becomes faster and more open.` },
+            { title: "Good for mixed personal and business use", body: `Many Worksop customers want one vehicle that can cover errands, appointments, family visits and occasional work mileage without feeling like more car than they need.
+
+That is one of the clearest strengths of compact car hire in Worksop.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Worksop?", answer: "Compact cars are a practical option in Worksop because they are easy for local driving and parking while still staying comfortable enough for A57 and A60 mileage." },
+            { question: "Is compact car hire in Worksop useful for station and town travel?", answer: "Yes. Compact cars are well suited to the kind of station access, retail stops and local appointments that make up many Worksop journeys." },
+            { question: "Do you offer automatic compact cars in Worksop?", answer: "Yes, subject to availability. If you prefer automatic driving for Worksop traffic or wider regional mileage, ask when booking." },
+            { question: "Can I use a compact car for business travel in Worksop?", answer: "Yes. Compact cars are commonly used for work appointments, visits and straightforward professional mileage in and around Worksop." },
+            { question: "Can Worksop compact car hire also suit longer trips?", answer: "Yes. Compact hatchbacks remain practical for mixed local and regional driving when you do not need extra carrying space." },
+            { question: "What if I later need more room than a compact car?", answer: "The wider fleet includes larger cars, vans, minibuses and trucks if the Worksop booking later needs more capacity." },
+          ],
+        })
+
+        const location6Tokens = createNearbyLocationTokens({
+          location: "Matlock",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-b.png",
+          heroAlt: "Compact hire car set for practical travel around Matlock",
+          metadataDescription: "Compact car hire in Matlock for town driving, valley routes and practical Derbyshire travel where a smaller hatchback stays easy to manage.",
+          heroDescription: "Compact car hire in Matlock for everyday local travel, visitor mileage, appointments and Derbyshire routes where an easy-to-place car makes the journey simpler.",
+          serviceDescription: `Compact car hire in Matlock works well because local journeys often mix ordinary town-centre movement with winding Derbyshire roads and nearby valley routes. A smaller hatchback is useful for parking, narrower stretches and repeated local stops, while still staying comfortable enough once the route opens into wider county travel.
+
+That practicality suits appointments, family visits, visitor travel and replacement transport around Matlock. You get a self-drive car that feels manageable in a place where simple handling often matters more than carrying unnecessary bulk.`,
+          whyChooseDescription: "We keep Matlock compact car hire practical for local Derbyshire driving while still making sure the car remains useful on wider county routes.",
+          serviceAreasDescription: "We support compact car hire in Matlock and nearby Derbyshire routes, including town-centre travel, valley roads and practical wider regional mileage.",
+          localRelevanceDescription: `Matlock suits compact car hire because many bookings here depend on a car that stays easy to place on local roads without losing everyday comfort. A smaller vehicle is useful for routine parking, shorter town trips and the kind of mixed Derbyshire mileage that can move between ordinary town roads and more winding local routes.
+
+That makes compact hatchbacks a sensible option for people who want a practical self-drive car for appointments, visits and general local movement without stepping up to something larger than the route really needs.`,
+          localBlocks: [
+            { title: "Useful for town-centre access and everyday parking", body: `Compact cars are a strong fit in Matlock because they stay easier around normal parking, shorter local roads and repeated town-centre stops.
+
+That simplicity is often exactly what customers want from a local self-drive vehicle.` },
+            { title: "A practical match for Derbyshire road patterns", body: `Matlock journeys often involve a mix of ordinary town mileage and wider Derbyshire routes where a car still needs to stay comfortable once the local section is done.
+
+A compact hatchback balances those demands well without feeling oversized.` },
+            { title: "Good for visits, appointments and replacement use", body: `Many Matlock bookings are about keeping daily routines moving while your own car is unavailable or when a simple practical vehicle is needed for a few days.
+
+Compact hire works well there because it stays easy to live with throughout the booking.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Matlock?", answer: "Compact cars are a practical fit in Matlock because they are easy for local roads and parking while still being comfortable enough for wider Derbyshire mileage." },
+            { question: "Is compact car hire in Matlock useful for local visits and appointments?", answer: "Yes. Compact cars are well suited to the everyday local trips, short town-centre runs and practical parking that make up many Matlock journeys." },
+            { question: "Do you offer automatic compact cars in Matlock?", answer: "Yes, subject to availability. If you prefer automatic driving for Matlock routes or wider Derbyshire travel, ask when booking." },
+            { question: "Can I use a compact hire car for business travel in Matlock?", answer: "Yes. Compact cars are commonly used for practical meetings, visits and day-to-day professional mileage in and around Matlock." },
+            { question: "Can Matlock compact car hire also suit longer trips?", answer: "Yes. Compact hatchbacks remain useful for mixed local and regional driving when you do not need a larger vehicle." },
+            { question: "What if I later need more room?", answer: "If the Matlock booking later needs more room, the wider fleet includes larger cars, vans, minibuses and trucks." },
+          ],
+        })
+
+        const location7Tokens = createNearbyLocationTokens({
+          location: "Alfreton",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-a.png",
+          heroAlt: "Compact hire car prepared for practical travel around Alfreton",
+          metadataDescription: "Compact car hire in Alfreton for town driving, retail stops and practical regional travel using the A38, A61 and M1 links.",
+          heroDescription: "Compact car hire in Alfreton for everyday local travel, work visits and wider Derbyshire mileage where a smaller hatchback keeps things straightforward.",
+          serviceDescription: `Compact car hire in Alfreton works well because local bookings often mix ordinary town movement with quick access to wider roads such as the A38, A61 and M1. A smaller hatchback is easier for day-to-day parking and shorter local stops, while still staying comfortable enough for broader regional mileage.
+
+That practicality suits replacement transport, family visits, business appointments and mixed-use journeys around Alfreton. You get a self-drive car that stays manageable for local driving without feeling limited once the route widens.`,
+          whyChooseDescription: "We keep Alfreton compact car hire practical for ordinary local use while making sure the vehicle also works well once the journey opens onto wider Derbyshire roads.",
+          serviceAreasDescription: "We support compact car hire in Alfreton and nearby Derbyshire routes, including town travel, retail stops and onward mileage using the A38, A61 and M1 links.",
+          localRelevanceDescription: `Alfreton is a strong fit for compact car hire because many journeys here combine local driving with quick access to wider routes. A smaller vehicle is useful for ordinary parking, shorter town trips and repeated local stops, while still remaining comfortable enough once the booking heads towards the A38, A61 or M1.
+
+That balance matters on bookings that mix shopping, appointments, family visits and regional travel in the same day. Compact hatchbacks stay practical in both halves of that journey.`,
+          localBlocks: [
+            { title: "A practical fit for everyday Alfreton driving", body: `Compact cars are useful in Alfreton because they keep local manoeuvring, regular parking and short town-centre trips simple. That is often the clearest benefit for customers who just need a sensible self-drive car.
+
+A smaller hatchback also feels less cumbersome on repeated local stops than a larger vehicle.` },
+            { title: "Comfortable enough once the route widens", body: `Alfreton trips can quickly widen beyond local roads onto the A38, A61 and M1-linked mileage, so the car still needs to remain practical after the town section.
+
+A compact hatchback gives you that useful balance without pushing you into unnecessary size.` },
+            { title: "Good for work, visits and replacement use", body: `Many Alfreton bookings are about business appointments, family visits or keeping daily routines moving while your own car is unavailable.
+
+Compact hire works well in those situations because it stays easy to live with throughout the day.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Alfreton?", answer: "Compact cars are a practical option in Alfreton because they stay easy for local driving and parking while remaining comfortable enough for A38, A61 and M1 mileage." },
+            { question: "Is compact car hire in Alfreton useful for shopping and town travel?", answer: "Yes. Compact cars are well suited to the short local trips, everyday parking and ordinary retail stops that make up many Alfreton journeys." },
+            { question: "Do you offer automatic compact cars in Alfreton?", answer: "Yes, subject to availability. If you prefer automatic driving for Alfreton traffic or wider Derbyshire routes, ask when booking." },
+            { question: "Can I use a compact hire car for business travel in Alfreton?", answer: "Yes. Compact cars are commonly used for meetings, visits and practical day-to-day professional mileage in and around Alfreton." },
+            { question: "Can Alfreton compact car hire also suit longer trips?", answer: "Yes. Compact hatchbacks remain useful for mixed local and regional driving when you do not need a larger vehicle." },
+            { question: "What if I later need more room?", answer: "If the Alfreton booking later needs more room, the wider fleet includes larger cars, vans, minibuses and trucks." },
+          ],
+        })
+
+        const location8Tokens = createNearbyLocationTokens({
+          location: "Dronfield",
+          heroImage: "/images/compactcarhirechesterfield-co-uk-nearby-location-fleet-b.png",
+          heroAlt: "Compact hire car ready for everyday travel around Dronfield",
+          metadataDescription: "Compact car hire in Dronfield for local driving, Sheffield-side routes and practical regional mileage where a smaller car stays easy to handle.",
+          heroDescription: "Compact car hire in Dronfield for everyday local travel, station connections, business appointments and practical wider mileage between Chesterfield and Sheffield.",
+          serviceDescription: `Compact car hire in Dronfield is a sensible choice when the booking needs to stay easy on local roads while still being useful once the route widens towards Sheffield, Chesterfield or the A61. A smaller hatchback helps with ordinary parking, shorter local stops and regular day-to-day travel, while still remaining comfortable enough for broader mileage beyond town.
+
+That practicality suits appointments, work visits, family travel and replacement transport around Dronfield. You get a self-drive car that feels manageable throughout the booking rather than something bulkier than the route really calls for.`,
+          whyChooseDescription: "We keep Dronfield compact car hire practical for everyday local use while still making sure the vehicle remains useful on the wider routes between Chesterfield and Sheffield.",
+          serviceAreasDescription: "We support compact car hire in Dronfield and nearby Derbyshire and South Yorkshire routes, including local travel, station access and wider mileage using the A61 corridor.",
+          localRelevanceDescription: `Dronfield suits compact car hire because many bookings combine simple local roads with quick access to wider routes between Chesterfield and Sheffield. A smaller vehicle is easier for everyday parking and repeated local stops, but it still remains comfortable enough once the trip opens onto the A61 and surrounding regional links.
+
+That balance is useful for customers who want a normal, manageable self-drive car for appointments, family visits and practical regional travel without stepping up to unnecessary size.`,
+          localBlocks: [
+            { title: "Useful for everyday local driving", body: `Compact cars work well in Dronfield because they keep ordinary local trips, regular parking and shorter daily runs simple. That is often the main thing customers want from a hire car.
+
+A smaller hatchback also feels easier to live with on repeated local stops than a larger vehicle.` },
+            { title: "A practical fit for the Chesterfield-Sheffield corridor", body: `Dronfield bookings often widen quite quickly towards Chesterfield, Sheffield and the A61 corridor, so the car still needs to remain comfortable once the local section is done.
+
+A compact hatchback gives you that useful middle ground without overcommitting to something larger.` },
+            { title: "Good for work, visits and replacement transport", body: `Many Dronfield customers need a practical car for business travel, family visits or simply to keep routines moving while their own vehicle is unavailable.
+
+Compact hire works well there because it stays straightforward from start to finish.` },
+          ],
+          faqs: [
+            { question: "Why choose compact car hire in Dronfield?", answer: "Compact cars are a practical fit in Dronfield because they stay easy for local driving and parking while still being comfortable enough for Chesterfield, Sheffield and A61 mileage." },
+            { question: "Is compact car hire in Dronfield useful for station and local travel?", answer: "Yes. Compact cars are well suited to the local trips, ordinary parking and station-connected travel that make up many Dronfield journeys." },
+            { question: "Do you offer automatic compact cars in Dronfield?", answer: "Yes, subject to availability. If you prefer automatic driving for Dronfield traffic or wider regional travel, ask when booking." },
+            { question: "Can I use a compact hire car for business travel in Dronfield?", answer: "Yes. Compact cars are commonly used for meetings, visits and practical day-to-day professional mileage in and around Dronfield." },
+            { question: "Can Dronfield compact car hire also suit longer trips?", answer: "Yes. Compact hatchbacks remain useful for mixed local and regional driving when you do not need a larger vehicle." },
+            { question: "What if I later need more room?", answer: "If the Dronfield booking later needs more room, the wider fleet includes larger cars, vans, minibuses and trucks." },
+          ],
+        })
 
 export const servicePages: Record<ServiceSlug, ServicePageContent> = {
   "compact-car": createContentSet({
